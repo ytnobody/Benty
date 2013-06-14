@@ -1,0 +1,2534 @@
+digraph {
+graph [overlap=false]
+subgraph cluster_IO_Socket_INET {
+	label="IO::Socket::INET";
+	"IO::Socket::INET::_get_proto_number";
+	"IO::Socket::INET::_get_proto_name";
+	"IO::Socket::INET::BEGIN@9";
+	"IO::Socket::INET::CORE:subst";
+	"IO::Socket::INET::BEGIN@15";
+	"IO::Socket::INET::BEGIN@14";
+	"IO::Socket::INET::BEGIN@11";
+	"IO::Socket::INET::new";
+	"IO::Socket::INET::BEGIN@13";
+	"IO::Socket::INET::BEGIN@12";
+	"IO::Socket::INET::configure";
+	"IO::Socket::INET::bind";
+	"IO::Socket::INET::CORE:match";
+	"IO::Socket::INET::peeraddr";
+	"IO::Socket::INET::_sock_info";
+	"IO::Socket::INET::peerport";
+	"IO::Socket::INET::peerhost";
+}
+subgraph cluster_Storable {
+	label="Storable";
+	"Storable::BEGIN@22";
+	"Storable::BEGIN@26";
+	"Storable::BEGIN@51";
+}
+subgraph cluster_Config {
+	label="Config";
+	"Config::BEGIN@11";
+	"Config::BEGIN@45";
+	"Config::TIEHASH";
+	"Config::BEGIN@10";
+	"Config::BEGIN@9";
+	"Config::import";
+	"Config::FETCH";
+}
+subgraph cluster_File_Path {
+	label="File::Path";
+	"File::Path::BEGIN@7";
+	"File::Path::BEGIN@6";
+	"File::Path::BEGIN@8";
+	"File::Path::BEGIN@19";
+	"File::Path::BEGIN@10";
+	"File::Path::BEGIN@4";
+	"File::Path::BEGIN@18";
+	"File::Path::BEGIN@3";
+	"File::Path::BEGIN@329";
+}
+subgraph cluster_DynaLoader {
+	label="DynaLoader";
+	"DynaLoader::CORE:ftfile";
+	"DynaLoader::BEGIN@95";
+	"DynaLoader::CORE:ftsize";
+	"DynaLoader::dl_undef_symbols";
+	"DynaLoader::BEGIN@22";
+	"DynaLoader::dl_find_symbol";
+	"DynaLoader::dl_load_file";
+	"DynaLoader::CORE:subst";
+	"DynaLoader::BEGIN@18";
+	"DynaLoader::dl_load_flags";
+	"DynaLoader::CORE:ftdir";
+	"DynaLoader::dl_install_xsub";
+	"DynaLoader::bootstrap";
+}
+subgraph cluster_Nephia_ClassLoader {
+	label="Nephia::ClassLoader";
+	"Nephia::ClassLoader::BEGIN@2";
+	"Nephia::ClassLoader::BEGIN@4";
+	"Nephia::ClassLoader::BEGIN@3";
+	"Nephia::ClassLoader::load";
+}
+subgraph cluster_warnings {
+	label="warnings";
+	"warnings::unimport";
+	"warnings::import";
+}
+subgraph cluster_vars {
+	label="vars";
+	"vars::import";
+}
+subgraph cluster_Plack_Util_Accessor {
+	label="Plack::Util::Accessor";
+	"Plack::Util::Accessor::BEGIN@3";
+	"Plack::Util::Accessor::mk_accessors";
+	"Plack::Util::Accessor::BEGIN@14";
+	"Plack::Util::Accessor::import";
+	"Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+	"Plack::Util::Accessor::BEGIN@2";
+}
+subgraph cluster_Tie_Hash {
+	label="Tie::Hash";
+	"Tie::Hash::BEGIN@188";
+	"Tie::Hash::BEGIN@189";
+}
+subgraph cluster_Plack_App_URLMap {
+	label="Plack::App::URLMap";
+	"Plack::App::URLMap::BEGIN@2";
+	"Plack::App::URLMap::BEGIN@7";
+	"Plack::App::URLMap::BEGIN@5";
+	"Plack::App::URLMap::BEGIN@3";
+	"Plack::App::URLMap::BEGIN@4";
+	"Plack::App::URLMap::BEGIN@54";
+}
+subgraph cluster_Plack_Middleware_Conditional {
+	label="Plack::Middleware::Conditional";
+	"Plack::Middleware::Conditional::BEGIN@3";
+	"Plack::Middleware::Conditional::BEGIN@5";
+	"Plack::Middleware::Conditional::BEGIN@2";
+}
+subgraph cluster_XSLoader {
+	label="XSLoader";
+	"XSLoader::load";
+}
+subgraph cluster_JSON_XS_Boolean {
+	label="JSON::XS::Boolean";
+	"JSON::XS::Boolean::BEGIN@3";
+	"JSON::XS::Boolean::BEGIN@1477";
+}
+subgraph cluster_bytes {
+	label="bytes";
+	"bytes::import";
+}
+subgraph cluster_Router_Simple {
+	label="Router::Simple";
+	"Router::Simple::BEGIN@9";
+	"Router::Simple::BEGIN@11";
+	"Router::Simple::BEGIN@4";
+	"Router::Simple::BEGIN@6";
+	"Router::Simple::BEGIN@2";
+	"Router::Simple::new";
+	"Router::Simple::BEGIN@3";
+	"Router::Simple::connect";
+	"Router::Simple::BEGIN@7";
+	"Router::Simple::match";
+	"Router::Simple::_match";
+	"Router::Simple::BEGIN@8";
+}
+subgraph cluster_URI_Escape {
+	label="URI::Escape";
+	"URI::Escape::BEGIN@145";
+	"URI::Escape::BEGIN@2";
+	"URI::Escape::CORE:qr";
+}
+subgraph cluster_IO_Handle {
+	label="IO::Handle";
+	"IO::Handle::autoflush";
+	"IO::Handle::print";
+	"IO::Handle::sysread";
+	"IO::Handle::syswrite";
+	"IO::Handle::close";
+	"IO::Handle::new";
+}
+subgraph cluster_Stream_Buffered_PerlIO {
+	label="Stream::Buffered::PerlIO";
+	"Stream::Buffered::PerlIO::BEGIN@2";
+	"Stream::Buffered::PerlIO::BEGIN@4";
+	"Stream::Buffered::PerlIO::BEGIN@3";
+}
+subgraph cluster_FileHandle {
+	label="FileHandle";
+	"FileHandle::import";
+	"FileHandle::BEGIN@46";
+	"FileHandle::BEGIN@3";
+	"FileHandle::BEGIN@4";
+}
+subgraph cluster_Plack_Util_Prototype {
+	label="Plack::Util::Prototype";
+	"Plack::Util::Prototype::AUTOLOAD";
+}
+subgraph cluster_Text_MicroTemplate_File {
+	label="Text::MicroTemplate::File";
+	"Text::MicroTemplate::File::BEGIN@6";
+	"Text::MicroTemplate::File::CORE:close";
+	"Text::MicroTemplate::File::BEGIN@4";
+	"Text::MicroTemplate::File::BEGIN@5";
+	"Text::MicroTemplate::File::CORE:open";
+	"Text::MicroTemplate::File::BEGIN@8";
+	"Text::MicroTemplate::File::build_file";
+	"Text::MicroTemplate::File::BEGIN@104";
+	"Text::MicroTemplate::File::CORE:stat";
+	"Text::MicroTemplate::File::render_file";
+	"Text::MicroTemplate::File::new";
+	"Text::MicroTemplate::File::CORE:readline";
+	"Text::MicroTemplate::File::BEGIN@3";
+}
+subgraph cluster_Socket {
+	label="Socket";
+	"Socket::inet_ntoa";
+	"Socket::BEGIN@310";
+	"Socket::CORE:qr";
+	"Socket::unpack_sockaddr_in";
+	"Socket::BEGIN@3";
+	"Socket::BEGIN@628";
+	"Socket::pack_sockaddr_in";
+	"Socket::CORE:regcomp";
+	"Socket::BEGIN@311";
+	"Socket::sockaddr_in";
+	"Socket::BEGIN@541";
+}
+subgraph cluster_Text_MicroTemplate {
+	label="Text::MicroTemplate";
+	"Text::MicroTemplate::CORE:regcomp";
+	"Text::MicroTemplate::CORE:subst";
+	"Text::MicroTemplate::code";
+	"Text::MicroTemplate::BEGIN@13";
+	"Text::MicroTemplate::encoded_string";
+	"Text::MicroTemplate::BEGIN@10";
+	"Text::MicroTemplate::BEGIN@190";
+	"Text::MicroTemplate::build";
+	"Text::MicroTemplate::_inline_escape_html";
+	"Text::MicroTemplate::BEGIN@11";
+	"Text::MicroTemplate::__ANON__[Text/MicroTemplate.pm:371]";
+	"Text::MicroTemplate::new";
+	"Text::MicroTemplate::BEGIN@419";
+	"Text::MicroTemplate::_build";
+	"Text::MicroTemplate::BEGIN@406";
+	"Text::MicroTemplate::parse";
+	"Text::MicroTemplate::CORE:match";
+	"Text::MicroTemplate::BEGIN@9";
+	"Text::MicroTemplate::BEGIN@14";
+	"Text::MicroTemplate::BEGIN@8";
+}
+subgraph cluster_version {
+	label="version";
+	"version::(bool";
+	"version::(cmp";
+}
+subgraph cluster_Plack_Component {
+	label="Plack::Component";
+	"Plack::Component::BEGIN@5";
+	"Plack::Component::__ANON__[Plack/Component.pm:39]";
+	"Plack::Component::to_app";
+	"Plack::Component::new";
+	"Plack::Component::response_cb";
+	"Plack::Component::BEGIN@6";
+	"Plack::Component::BEGIN@2";
+	"Plack::Component::prepare_app";
+	"Plack::Component::BEGIN@3";
+	"Plack::Component::BEGIN@4";
+}
+subgraph cluster_POSIX_SigRt {
+	label="POSIX::SigRt";
+	"POSIX::SigRt::BEGIN@58";
+	"POSIX::SigRt::BEGIN@56";
+	"POSIX::SigRt::BEGIN@60";
+}
+subgraph cluster_utf8 {
+	label="utf8";
+	"utf8::BEGIN@147";
+	"utf8::is_utf8";
+	"utf8::AUTOLOAD";
+	"utf8::CORE:match";
+	"utf8::CORE:sort";
+	"utf8::BEGIN@2";
+	"utf8::SWASHNEW";
+	"utf8::BEGIN@460";
+	"utf8::BEGIN@3";
+	"utf8::BEGIN@399";
+	"utf8::BEGIN@123";
+	"utf8::CORE:subst";
+	"utf8::BEGIN@135";
+	"utf8::BEGIN@117";
+}
+subgraph cluster_Devel_StackTrace_AsHTML {
+	label="Devel::StackTrace::AsHTML";
+	"Devel::StackTrace::AsHTML::BEGIN@4";
+	"Devel::StackTrace::AsHTML::BEGIN@11";
+	"Devel::StackTrace::AsHTML::BEGIN@9";
+	"Devel::StackTrace::AsHTML::BEGIN@8";
+	"Devel::StackTrace::AsHTML::BEGIN@3";
+	"Devel::StackTrace::AsHTML::BEGIN@7";
+}
+subgraph cluster_Plack_Middleware_Lint {
+	label="Plack::Middleware::Lint";
+	"Plack::Middleware::Lint::validate_res";
+	"Plack::Middleware::Lint::call";
+	"Plack::Middleware::Lint::BEGIN@7";
+	"Plack::Middleware::Lint::BEGIN@3";
+	"Plack::Middleware::Lint::_is_really_utf8";
+	"Plack::Middleware::Lint::BEGIN@2";
+	"Plack::Middleware::Lint::BEGIN@6";
+	"Plack::Middleware::Lint::validate_env";
+	"Plack::Middleware::Lint::BEGIN@4";
+	"Plack::Middleware::Lint::BEGIN@5";
+	"Plack::Middleware::Lint::CORE:match";
+}
+subgraph cluster_IO_Seekable {
+	label="IO::Seekable";
+	"IO::Seekable::BEGIN@98";
+	"IO::Seekable::BEGIN@99";
+	"IO::Seekable::BEGIN@97";
+	"IO::Seekable::BEGIN@104";
+	"IO::Seekable::BEGIN@101";
+}
+subgraph cluster_IO_Socket_UNIX {
+	label="IO::Socket::UNIX";
+	"IO::Socket::UNIX::BEGIN@11";
+	"IO::Socket::UNIX::BEGIN@9";
+	"IO::Socket::UNIX::BEGIN@12";
+}
+subgraph cluster_HTTP_Body_UrlEncoded {
+	label="HTTP::Body::UrlEncoded";
+	"HTTP::Body::UrlEncoded::CORE:qr";
+	"HTTP::Body::UrlEncoded::BEGIN@8";
+	"HTTP::Body::UrlEncoded::BEGIN@6";
+	"HTTP::Body::UrlEncoded::BEGIN@7";
+}
+subgraph cluster_feature {
+	label="feature";
+	"feature::import";
+	"feature::CORE:substcont";
+	"feature::CORE:subst";
+}
+subgraph cluster_Stream_Buffered {
+	label="Stream::Buffered";
+	"Stream::Buffered::BEGIN@5";
+	"Stream::Buffered::BEGIN@7";
+	"Stream::Buffered::BEGIN@2";
+	"Stream::Buffered::BEGIN@6";
+	"Stream::Buffered::BEGIN@3";
+	"Stream::Buffered::BEGIN@8";
+}
+subgraph cluster_Plack_Sandbox_app_2epsgi {
+	label="Plack::Sandbox::app_2epsgi";
+	"Plack::Sandbox::app_2epsgi::BEGIN@3";
+	"Plack::Sandbox::app_2epsgi::BEGIN@7";
+	"Plack::Sandbox::app_2epsgi::BEGIN@2.2";
+	"Plack::Sandbox::app_2epsgi::BEGIN@2";
+	"Plack::Sandbox::app_2epsgi::BEGIN@4";
+	"Plack::Sandbox::app_2epsgi::BEGIN@5";
+	"Plack::Sandbox::app_2epsgi::BEGIN@8";
+	"Plack::Sandbox::app_2epsgi::BEGIN@1";
+	"Plack::Sandbox::app_2epsgi::BEGIN@3.3";
+}
+subgraph cluster_Plack_Builder {
+	label="Plack::Builder";
+	"Plack::Builder::BEGIN@6";
+	"Plack::Builder::__ANON__[Plack/Builder.pm:93]";
+	"Plack::Builder::BEGIN@2";
+	"Plack::Builder::to_app";
+	"Plack::Builder::__ANON__[Plack/Builder.pm:20]";
+	"Plack::Builder::builder";
+	"Plack::Builder::BEGIN@3";
+	"Plack::Builder::BEGIN@8";
+	"Plack::Builder::add_middleware";
+	"Plack::Builder::new";
+	"Plack::Builder::BEGIN@7";
+	"Plack::Builder::enable";
+}
+subgraph cluster_Try_Tiny {
+	label="Try::Tiny";
+	"Try::Tiny::catch";
+	"Try::Tiny::try";
+}
+subgraph cluster_parent {
+	label="parent";
+	"parent::import";
+}
+subgraph cluster_Plack_MIME {
+	label="Plack::MIME";
+	"Plack::MIME::mime_type";
+	"Plack::MIME::BEGIN@2";
+	"Plack::MIME::CORE:match";
+}
+subgraph cluster_Router_Simple_SubMapper {
+	label="Router::Simple::SubMapper";
+	"Router::Simple::SubMapper::BEGIN@2";
+	"Router::Simple::SubMapper::BEGIN@4";
+	"Router::Simple::SubMapper::BEGIN@3";
+}
+subgraph cluster_JSON_Backend_PP {
+	label="JSON::Backend::PP";
+	"JSON::Backend::PP::BEGIN@383";
+}
+subgraph cluster_Data_Dumper {
+	label="Data::Dumper";
+	"Data::Dumper::BEGIN@22";
+	"Data::Dumper::BEGIN@16";
+	"Data::Dumper::BEGIN@683";
+	"Data::Dumper::BEGIN@20";
+}
+subgraph cluster_Plack_Util {
+	label="Plack::Util";
+	"Plack::Util::content_length";
+	"Plack::Util::load_class";
+	"Plack::Util::response_cb";
+	"Plack::Util::foreach";
+	"Plack::Util::headers";
+	"Plack::Util::status_with_no_entity_body";
+	"Plack::Util::is_real_fh";
+	"Plack::Util::set_io_path";
+	"Plack::Util::run_app";
+	"Plack::Util::header_iter";
+}
+subgraph cluster_PerlIO {
+	label="PerlIO";
+	"PerlIO::import";
+}
+subgraph cluster_HTTP_Body_XFormsMultipart {
+	label="HTTP::Body::XFormsMultipart";
+	"HTTP::Body::XFormsMultipart::BEGIN@11";
+	"HTTP::Body::XFormsMultipart::BEGIN@8";
+	"HTTP::Body::XFormsMultipart::BEGIN@6";
+	"HTTP::Body::XFormsMultipart::BEGIN@10";
+	"HTTP::Body::XFormsMultipart::BEGIN@7";
+}
+subgraph cluster_Scalar_Util {
+	label="Scalar::Util";
+	"Scalar::Util::weaken";
+}
+subgraph cluster_POSIX_SigAction {
+	label="POSIX::SigAction";
+	"POSIX::SigAction::BEGIN@52";
+}
+subgraph cluster_UNIVERSAL {
+	label="UNIVERSAL";
+	"UNIVERSAL::isa";
+	"UNIVERSAL::VERSION";
+	"UNIVERSAL::can";
+}
+subgraph cluster_FindBin {
+	label="FindBin";
+	"FindBin::BEGIN@95";
+	"FindBin::BEGIN@98";
+	"FindBin::CORE:match";
+	"FindBin::CORE:ftfile";
+	"FindBin::CORE:readlink";
+	"FindBin::BEGIN@205";
+	"FindBin::init";
+	"FindBin::BEGIN@99";
+	"FindBin::BEGIN@100";
+	"FindBin::cwd2";
+}
+subgraph cluster_Fcntl {
+	label="Fcntl";
+	"Fcntl::O_NOFOLLOW";
+	"Fcntl::BEGIN@58";
+	"Fcntl::O_EXLOCK";
+	"Fcntl::O_TEMPORARY";
+	"Fcntl::O_NOINHERIT";
+	"Fcntl::O_LARGEFILE";
+	"Fcntl::O_BINARY";
+}
+subgraph cluster_HTTP_Server_PSGI {
+	label="HTTP::Server::PSGI";
+	"HTTP::Server::PSGI::run";
+	"HTTP::Server::PSGI::handle_connection";
+	"HTTP::Server::PSGI::BEGIN@11";
+	"HTTP::Server::PSGI::BEGIN@9";
+	"HTTP::Server::PSGI::BEGIN@6";
+	"HTTP::Server::PSGI::write_all";
+	"HTTP::Server::PSGI::BEGIN@31";
+	"HTTP::Server::PSGI::prepare_socket_class";
+	"HTTP::Server::PSGI::BEGIN@12";
+	"HTTP::Server::PSGI::read_timeout";
+	"HTTP::Server::PSGI::BEGIN@8";
+	"HTTP::Server::PSGI::do_timeout";
+	"HTTP::Server::PSGI::__ANON__[HTTP/Server/PSGI.pm:270]";
+	"HTTP::Server::PSGI::BEGIN@5";
+	"HTTP::Server::PSGI::BEGIN@14";
+	"HTTP::Server::PSGI::CORE:open";
+	"HTTP::Server::PSGI::BEGIN@19";
+	"HTTP::Server::PSGI::__ANON__[HTTP/Server/PSGI.pm:276]";
+	"HTTP::Server::PSGI::new";
+	"HTTP::Server::PSGI::BEGIN@2";
+	"HTTP::Server::PSGI::BEGIN@13";
+	"HTTP::Server::PSGI::BEGIN@15";
+	"HTTP::Server::PSGI::_handle_response";
+	"HTTP::Server::PSGI::BEGIN@3";
+	"HTTP::Server::PSGI::BEGIN@7";
+	"HTTP::Server::PSGI::BEGIN@32";
+	"HTTP::Server::PSGI::BEGIN@166";
+	"HTTP::Server::PSGI::BEGIN@22";
+	"HTTP::Server::PSGI::BEGIN@18";
+	"HTTP::Server::PSGI::setup_listener";
+	"HTTP::Server::PSGI::BEGIN@10";
+	"HTTP::Server::PSGI::BEGIN@16";
+	"HTTP::Server::PSGI::accept_loop";
+	"HTTP::Server::PSGI::write_timeout";
+}
+subgraph cluster_Nephia {
+	label="Nephia";
+	"Nephia::BEGIN@3";
+	"Nephia::BEGIN@4";
+	"Nephia::BEGIN@14";
+	"Nephia::BEGIN@17";
+	"Nephia::CORE:match";
+	"Nephia::BEGIN@2";
+	"Nephia::import";
+}
+subgraph cluster_Stream_Buffered_Auto {
+	label="Stream::Buffered::Auto";
+	"Stream::Buffered::Auto::BEGIN@2";
+	"Stream::Buffered::Auto::BEGIN@3";
+	"Stream::Buffered::Auto::BEGIN@4";
+}
+subgraph cluster_Encode_utf8 {
+	label="Encode::utf8";
+	"Encode::utf8::encode_xs";
+	"Encode::utf8::BEGIN@323";
+}
+subgraph cluster_Plack_Runner {
+	label="Plack::Runner";
+	"Plack::Runner::locate_app";
+	"Plack::Runner::__ANON__";
+}
+subgraph cluster_Encode_Config {
+	label="Encode::Config";
+	"Encode::Config::BEGIN@7";
+	"Encode::Config::BEGIN@8";
+	"Encode::Config::CORE:match";
+}
+subgraph cluster_File_Temp_Dir {
+	label="File::Temp::Dir";
+	"File::Temp::Dir::BEGIN@2405";
+	"File::Temp::Dir::BEGIN@2407";
+	"File::Temp::Dir::BEGIN@2406";
+}
+subgraph cluster_Tie_StdHash {
+	label="Tie::StdHash";
+	"Tie::StdHash::TIEHASH";
+}
+subgraph cluster_warnings_register {
+	label="warnings::register";
+	"warnings::register::import";
+}
+subgraph cluster_JSON {
+	label="JSON";
+	"JSON::BEGIN@318";
+	"JSON::CORE:close";
+	"JSON::BEGIN@9";
+	"JSON::BEGIN@6";
+	"JSON::CORE:readline";
+	"JSON::BEGIN@4";
+	"JSON::BEGIN@5";
+	"JSON::_set_module";
+	"JSON::_load_xs";
+	"JSON::BEGIN@2";
+}
+subgraph cluster_Cwd {
+	label="Cwd";
+	"Cwd::BEGIN@170";
+	"Cwd::CORE:fteexec";
+	"Cwd::BEGIN@823";
+	"Cwd::BEGIN@171";
+	"Cwd::BEGIN@209";
+	"Cwd::getcwd";
+	"Cwd::CORE:regcomp";
+	"Cwd::BEGIN@172";
+	"Cwd::abs_path";
+}
+subgraph cluster_Router_Simple_Route {
+	label="Router::Simple::Route";
+	"Router::Simple::Route::CORE:regcomp";
+	"Router::Simple::Route::CORE:substcont";
+	"Router::Simple::Route::BEGIN@6";
+	"Router::Simple::Route::BEGIN@4";
+	"Router::Simple::Route::CORE:qr";
+	"Router::Simple::Route::CORE:match";
+	"Router::Simple::Route::BEGIN@2";
+	"Router::Simple::Route::CORE:subst";
+	"Router::Simple::Route::BEGIN@3";
+	"Router::Simple::Route::match";
+	"Router::Simple::Route::new";
+}
+subgraph cluster_Plack_Middleware_Static {
+	label="Plack::Middleware::Static";
+	"Plack::Middleware::Static::BEGIN@7";
+	"Plack::Middleware::Static::BEGIN@2";
+	"Plack::Middleware::Static::BEGIN@4";
+	"Plack::Middleware::Static::BEGIN@3";
+	"Plack::Middleware::Static::_handle_static";
+	"Plack::Middleware::Static::CORE:regcomp";
+	"Plack::Middleware::Static::call";
+	"Plack::Middleware::Static::BEGIN@5";
+	"Plack::Middleware::Static::CORE:match";
+}
+subgraph cluster_JSON_XS {
+	label="JSON::XS";
+	"JSON::XS::encode";
+	"JSON::XS::BEGIN@104";
+	"JSON::XS::new";
+	"JSON::XS::DESTROY";
+	"JSON::XS::utf8";
+	"JSON::XS::BEGIN@121";
+	"JSON::XS::BEGIN@122";
+}
+subgraph cluster_HTTP_Status {
+	label="HTTP::Status";
+	"HTTP::Status::status_message";
+	"HTTP::Status::CORE:match";
+	"HTTP::Status::CORE:subst";
+	"HTTP::Status::BEGIN@3";
+	"HTTP::Status::BEGIN@6";
+}
+subgraph cluster_Encode {
+	label="Encode";
+	"Encode::CORE:match";
+	"Encode::BEGIN@13";
+	"Encode::define_encoding";
+	"Encode::predefine_encodings";
+	"Encode::BEGIN@48";
+	"Encode::BEGIN@6";
+	"Encode::BEGIN@9";
+	"Encode::find_encoding";
+	"Encode::BEGIN@5";
+	"Encode::encode";
+	"Encode::getEncoding";
+	"Encode::BEGIN@240";
+}
+subgraph cluster_HTTP_Headers {
+	label="HTTP::Headers";
+	"HTTP::Headers::BEGIN@4";
+	"HTTP::Headers::BEGIN@3";
+	"HTTP::Headers::BEGIN@6";
+}
+subgraph cluster_Nephia_View {
+	label="Nephia::View";
+	"Nephia::View::new";
+	"Nephia::View::BEGIN@3";
+	"Nephia::View::BEGIN@4";
+	"Nephia::View::BEGIN@5";
+}
+subgraph cluster_JSON_Boolean {
+	label="JSON::Boolean";
+	"JSON::Boolean::_overrride_overload";
+}
+subgraph cluster_Plack_Request {
+	label="Plack::Request";
+	"Plack::Request::BEGIN@11";
+	"Plack::Request::new";
+	"Plack::Request::BEGIN@8";
+	"Plack::Request::BEGIN@3";
+	"Plack::Request::BEGIN@10";
+	"Plack::Request::BEGIN@4";
+	"Plack::Request::BEGIN@9";
+	"Plack::Request::BEGIN@16";
+	"Plack::Request::BEGIN@14";
+	"Plack::Request::BEGIN@15";
+	"Plack::Request::BEGIN@13";
+	"Plack::Request::BEGIN@2";
+}
+subgraph cluster_Errno {
+	label="Errno";
+	"Errno::BEGIN@9";
+	"Errno::BEGIN@8";
+	"Errno::TIEHASH";
+	"Errno::BEGIN@21";
+}
+subgraph cluster_base {
+	label="base";
+	"base::BEGIN@3";
+	"base::BEGIN@4";
+	"base::has_fields";
+	"base::has_version";
+	"base::has_attr";
+	"base::import";
+}
+subgraph cluster_IO_File {
+	label="IO::File";
+	"IO::File::BEGIN@128";
+	"IO::File::BEGIN@133";
+	"IO::File::BEGIN@130";
+	"IO::File::BEGIN@131";
+	"IO::File::CORE:match";
+	"IO::File::BEGIN@134";
+	"IO::File::BEGIN@132";
+	"IO::File::BEGIN@127";
+}
+subgraph cluster_Devel_StackTrace {
+	label="Devel::StackTrace";
+	"Devel::StackTrace::BEGIN@2";
+	"Devel::StackTrace::BEGIN@6";
+	"Devel::StackTrace::BEGIN@9";
+	"Devel::StackTrace::BEGIN@13";
+	"Devel::StackTrace::BEGIN@8";
+	"Devel::StackTrace::BEGIN@12";
+	"Devel::StackTrace::BEGIN@11";
+	"Devel::StackTrace::BEGIN@16";
+}
+subgraph cluster_HTTP_Body {
+	label="HTTP::Body";
+	"HTTP::Body::BEGIN@8";
+	"HTTP::Body::BEGIN@25";
+	"HTTP::Body::BEGIN@26";
+	"HTTP::Body::BEGIN@6";
+}
+subgraph cluster_HTTP_Body_MultiPart {
+	label="HTTP::Body::MultiPart";
+	"HTTP::Body::MultiPart::BEGIN@7";
+	"HTTP::Body::MultiPart::BEGIN@11";
+	"HTTP::Body::MultiPart::BEGIN@12";
+	"HTTP::Body::MultiPart::BEGIN@8";
+	"HTTP::Body::MultiPart::BEGIN@6";
+	"HTTP::Body::MultiPart::BEGIN@10";
+}
+subgraph cluster_HTTP_Message {
+	label="HTTP::Message";
+	"HTTP::Message::BEGIN@3";
+	"HTTP::Message::BEGIN@643";
+	"HTTP::Message::BEGIN@4";
+}
+subgraph cluster_strict {
+	label="strict";
+	"strict::import";
+	"strict::unimport";
+}
+subgraph cluster_Plack_Handler_HTTP_Server_PSGI {
+	label="Plack::Handler::HTTP::Server::PSGI";
+	"Plack::Handler::HTTP::Server::PSGI::new";
+	"Plack::Handler::HTTP::Server::PSGI::_server";
+	"Plack::Handler::HTTP::Server::PSGI::BEGIN@2";
+	"Plack::Handler::HTTP::Server::PSGI::run";
+	"Plack::Handler::HTTP::Server::PSGI::BEGIN@5";
+}
+subgraph cluster_Encode_Encoding {
+	label="Encode::Encoding";
+	"Encode::Encoding::BEGIN@4";
+	"Encode::Encoding::BEGIN@5";
+	"Encode::Encoding::CORE:match";
+}
+subgraph cluster_common_sense {
+	label="common::sense";
+	"common::sense::import";
+}
+subgraph cluster_attributes {
+	label="attributes";
+	"attributes::reftype";
+	"attributes::BEGIN@9";
+	"attributes::_modify_attrs_and_deprecate";
+	"attributes::_modify_attrs";
+	"attributes::CORE:qr";
+	"attributes::import";
+}
+subgraph cluster_Text_MicroTemplate_EncodedString {
+	label="Text::MicroTemplate::EncodedString";
+	"Text::MicroTemplate::EncodedString::BEGIN@433";
+	"Text::MicroTemplate::EncodedString::__ANON__[Text/MicroTemplate.pm:433]";
+	"Text::MicroTemplate::EncodedString::BEGIN@430";
+	"Text::MicroTemplate::EncodedString::as_string";
+	"Text::MicroTemplate::EncodedString::BEGIN@431";
+	"Text::MicroTemplate::EncodedString::new";
+}
+subgraph cluster_JSON_Backend_XS_Supportable {
+	label="JSON::Backend::XS::Supportable";
+	"JSON::Backend::XS::Supportable::BEGIN@99";
+}
+subgraph cluster_Exporter_Heavy {
+	label="Exporter::Heavy";
+	"Exporter::Heavy::_rebuild_cache";
+	"Exporter::Heavy::BEGIN@197";
+	"Exporter::Heavy::_push_tags";
+	"Exporter::Heavy::BEGIN@4";
+	"Exporter::Heavy::CORE:subst";
+	"Exporter::Heavy::CORE:match";
+	"Exporter::Heavy::BEGIN@3";
+}
+subgraph cluster_URI {
+	label="URI";
+	"URI::BEGIN@21";
+	"URI::BEGIN@128";
+	"URI::BEGIN@7";
+	"URI::BEGIN@22";
+	"URI::BEGIN@13";
+	"URI::BEGIN@24";
+	"URI::BEGIN@3";
+	"URI::BEGIN@4";
+}
+subgraph cluster_Plack {
+	label="Plack";
+	"Plack::BEGIN@5";
+	"Plack::BEGIN@3";
+	"Plack::BEGIN@4";
+}
+subgraph cluster_constant {
+	label="constant";
+	"constant::import";
+}
+subgraph cluster_HTTP_Parser_XS {
+	label="HTTP::Parser::XS";
+	"HTTP::Parser::XS::BEGIN@6";
+	"HTTP::Parser::XS::parse_http_request";
+	"HTTP::Parser::XS::BEGIN@4";
+	"HTTP::Parser::XS::BEGIN@3";
+	"HTTP::Parser::XS::CORE:match";
+	"HTTP::Parser::XS::BEGIN@16";
+}
+subgraph cluster_Class_Accessor_Lite {
+	label="Class::Accessor::Lite";
+	"Class::Accessor::Lite::__m";
+	"Class::Accessor::Lite::BEGIN@76";
+	"Class::Accessor::Lite::BEGIN@62";
+	"Class::Accessor::Lite::__m_ro";
+	"Class::Accessor::Lite::CORE:sort";
+	"Class::Accessor::Lite::BEGIN@84";
+	"Class::Accessor::Lite::import";
+	"Class::Accessor::Lite::BEGIN@68";
+	"Class::Accessor::Lite::BEGIN@3";
+	"Class::Accessor::Lite::_mk_ro_accessors";
+	"Class::Accessor::Lite::BEGIN@92";
+	"Class::Accessor::Lite::BEGIN@7";
+	"Class::Accessor::Lite::_mk_accessors";
+}
+subgraph cluster_Exporter {
+	label="Exporter";
+	"Exporter::import";
+	"Exporter::export_to_level";
+	"Exporter::export";
+	"Exporter::export_tags";
+}
+subgraph cluster_Plack_Request_Upload {
+	label="Plack::Request::Upload";
+	"Plack::Request::Upload::BEGIN@4";
+	"Plack::Request::Upload::BEGIN@2";
+	"Plack::Request::Upload::BEGIN@3";
+}
+subgraph cluster_Plack_Middleware {
+	label="Plack::Middleware";
+	"Plack::Middleware::BEGIN@2";
+	"Plack::Middleware::BEGIN@4";
+	"Plack::Middleware::BEGIN@7";
+	"Plack::Middleware::BEGIN@5";
+	"Plack::Middleware::BEGIN@3";
+	"Plack::Middleware::BEGIN@6";
+	"Plack::Middleware::wrap";
+}
+subgraph cluster_SelectSaver {
+	label="SelectSaver";
+	"SelectSaver::DESTROY";
+}
+subgraph cluster_HTTP_Body_XForms {
+	label="HTTP::Body::XForms";
+	"HTTP::Body::XForms::BEGIN@8";
+	"HTTP::Body::XForms::BEGIN@7";
+	"HTTP::Body::XForms::BEGIN@10";
+	"HTTP::Body::XForms::BEGIN@6";
+}
+subgraph cluster_Plack_Handler_Standalone {
+	label="Plack::Handler::Standalone";
+	"Plack::Handler::Standalone::BEGIN@4";
+	"Plack::Handler::Standalone::BEGIN@2";
+	"Plack::Handler::Standalone::BEGIN@3";
+}
+subgraph cluster_HTTP_Body_OctetStream {
+	label="HTTP::Body::OctetStream";
+	"HTTP::Body::OctetStream::BEGIN@6";
+	"HTTP::Body::OctetStream::BEGIN@8";
+	"HTTP::Body::OctetStream::BEGIN@10";
+	"HTTP::Body::OctetStream::BEGIN@7";
+}
+subgraph cluster_File_Basename {
+	label="File::Basename";
+	"File::Basename::BEGIN@52";
+	"File::Basename::BEGIN@371";
+	"File::Basename::BEGIN@50";
+	"File::Basename::dirname";
+	"File::Basename::CORE:substcont";
+	"File::Basename::fileparse_set_fstype";
+	"File::Basename::CORE:subst";
+	"File::Basename::BEGIN@42";
+	"File::Basename::fileparse";
+	"File::Basename::CORE:regcomp";
+	"File::Basename::_strip_trailing_sep";
+	"File::Basename::CORE:match";
+	"File::Basename::BEGIN@51";
+}
+subgraph cluster_AutoLoader {
+	label="AutoLoader";
+	"AutoLoader::BEGIN@138";
+	"AutoLoader::find_filename";
+	"AutoLoader::CORE:substcont";
+	"AutoLoader::CORE:subst";
+	"AutoLoader::BEGIN@186";
+	"AutoLoader::AUTOLOAD";
+	"AutoLoader::CORE:match";
+	"AutoLoader::CORE:fteread";
+	"AutoLoader::BEGIN@4";
+	"AutoLoader::import";
+	"AutoLoader::BEGIN@30";
+	"AutoLoader::BEGIN@3";
+	"AutoLoader::CORE:regcomp";
+	"AutoLoader::BEGIN@13";
+}
+subgraph cluster_Carp_Heavy {
+	label="Carp::Heavy";
+	"Carp::Heavy::BEGIN@3";
+}
+subgraph cluster_Plack_Middleware_AccessLog {
+	label="Plack::Middleware::AccessLog";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:80]";
+	"Plack::Middleware::AccessLog::BEGIN@8";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:74]";
+	"Plack::Middleware::AccessLog::BEGIN@16";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:32]";
+	"Plack::Middleware::AccessLog::log_line";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:75]";
+	"Plack::Middleware::AccessLog::BEGIN@7";
+	"Plack::Middleware::AccessLog::CORE:substcont";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:73]";
+	"Plack::Middleware::AccessLog::CORE:match";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:52]";
+	"Plack::Middleware::AccessLog::BEGIN@5";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:68]";
+	"Plack::Middleware::AccessLog::BEGIN@4";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:96]";
+	"Plack::Middleware::AccessLog::_safe";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:78]";
+	"Plack::Middleware::AccessLog::CORE:subst";
+	"Plack::Middleware::AccessLog::BEGIN@15";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:79]";
+	"Plack::Middleware::AccessLog::call";
+	"Plack::Middleware::AccessLog::BEGIN@2";
+	"Plack::Middleware::AccessLog::BEGIN@3";
+	"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:76]";
+}
+subgraph cluster_JSON_PP_Boolean {
+	label="JSON::PP::Boolean";
+	"JSON::PP::Boolean::BEGIN@3";
+}
+subgraph cluster_Plack_Middleware_ContentLength {
+	label="Plack::Middleware::ContentLength";
+	"Plack::Middleware::ContentLength::BEGIN@4";
+	"Plack::Middleware::ContentLength::BEGIN@2";
+	"Plack::Middleware::ContentLength::BEGIN@3";
+	"Plack::Middleware::ContentLength::call";
+	"Plack::Middleware::ContentLength::BEGIN@6";
+}
+subgraph cluster_File_Spec_Unix {
+	label="File::Spec::Unix";
+	"File::Spec::Unix::_cwd";
+	"File::Spec::Unix::path";
+	"File::Spec::Unix::rel2abs";
+	"File::Spec::Unix::canonpath";
+	"File::Spec::Unix::CORE:match";
+	"File::Spec::Unix::catfile";
+	"File::Spec::Unix::BEGIN@149";
+	"File::Spec::Unix::file_name_is_absolute";
+	"File::Spec::Unix::BEGIN@4";
+	"File::Spec::Unix::BEGIN@3";
+	"File::Spec::Unix::CORE:subst";
+	"File::Spec::Unix::catdir";
+}
+subgraph cluster_Time_Local {
+	label="Time::Local";
+	"Time::Local::BEGIN@8";
+	"Time::Local::CORE:pack";
+	"Time::Local::BEGIN@28";
+	"Time::Local::_daygm";
+	"Time::Local::BEGIN@4";
+	"Time::Local::BEGIN@5";
+	"Time::Local::BEGIN@29";
+	"Time::Local::BEGIN@6";
+	"Time::Local::BEGIN@27";
+}
+subgraph cluster_Nephia_Core {
+	label="Nephia::Core";
+	"Nephia::Core::BEGIN@5";
+	"Nephia::Core::_path";
+	"Nephia::Core::BEGIN@6";
+	"Nephia::Core::BEGIN@9";
+	"Nephia::Core::BEGIN@83";
+	"Nephia::Core::BEGIN@12";
+	"Nephia::Core::json_res";
+	"Nephia::Core::BEGIN@31";
+	"Nephia::Core::__ANON__[Nephia/Core.pm:115]";
+	"Nephia::Core::BEGIN@13";
+	"Nephia::Core::BEGIN@7";
+	"Nephia::Core::config";
+	"Nephia::Core::BEGIN@30";
+	"Nephia::Core::BEGIN@178";
+	"Nephia::Core::BEGIN@11";
+	"Nephia::Core::render";
+	"Nephia::Core::CORE:qr";
+	"Nephia::Core::__ANON__[Nephia/Core.pm:47]";
+	"Nephia::Core::path";
+	"Nephia::Core::__ANON__[Nephia/Core.pm:128]";
+	"Nephia::Core::BEGIN@10";
+	"Nephia::Core::run";
+	"Nephia::Core::BEGIN@3";
+	"Nephia::Core::app";
+	"Nephia::Core::BEGIN@2";
+	"Nephia::Core::BEGIN@84";
+	"Nephia::Core::BEGIN@8";
+}
+subgraph cluster_overload {
+	label="overload";
+	"overload::import";
+}
+subgraph cluster_Plack_Loader {
+	label="Plack::Loader";
+	"Plack::Loader::guess";
+	"Plack::Loader::auto";
+	"Plack::Loader::load";
+	"Plack::Loader::BEGIN@4";
+	"Plack::Loader::preload_app";
+	"Plack::Loader::BEGIN@3";
+	"Plack::Loader::BEGIN@2";
+	"Plack::Loader::BEGIN@5";
+	"Plack::Loader::env";
+}
+subgraph cluster_Nephia_View_MicroTemplate {
+	label="Nephia::View::MicroTemplate";
+	"Nephia::View::MicroTemplate::__ANON__[(eval 28)[Text/MicroTemplate.pm:389]:45]";
+	"Nephia::View::MicroTemplate::CORE:subst";
+	"Nephia::View::MicroTemplate::__ANON__[(eval 27)[Text/MicroTemplate.pm:389]:45]";
+	"Nephia::View::MicroTemplate::__ANON__[(eval 26)[Text/MicroTemplate.pm:389]:45]";
+	"Nephia::View::MicroTemplate::__ANON__[(eval 26)[Text/MicroTemplate.pm:389]:47]";
+	"Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:45]";
+	"Nephia::View::MicroTemplate::__ANON__[(eval 25)[Text/MicroTemplate.pm:389]:47]";
+	"Nephia::View::MicroTemplate::BEGIN@7";
+	"Nephia::View::MicroTemplate::__ANON__[(eval 25)[Text/MicroTemplate.pm:389]:45]";
+	"Nephia::View::MicroTemplate::BEGIN@2";
+	"Nephia::View::MicroTemplate::BEGIN@5";
+	"Nephia::View::MicroTemplate::BEGIN@4";
+	"Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:47]";
+	"Nephia::View::MicroTemplate::BEGIN@6";
+	"Nephia::View::MicroTemplate::__ANON__[(eval 27)[Text/MicroTemplate.pm:389]:47]";
+	"Nephia::View::MicroTemplate::BEGIN@3";
+	"Nephia::View::MicroTemplate::new";
+	"Nephia::View::MicroTemplate::render";
+	"Nephia::View::MicroTemplate::__ANON__[(eval 28)[Text/MicroTemplate.pm:389]:47]";
+}
+subgraph cluster_Stream_Buffered_File {
+	label="Stream::Buffered::File";
+	"Stream::Buffered::File::BEGIN@3";
+	"Stream::Buffered::File::BEGIN@4";
+	"Stream::Buffered::File::BEGIN@2";
+	"Stream::Buffered::File::BEGIN@6";
+}
+subgraph cluster_IO_Socket {
+	label="IO::Socket";
+	"IO::Socket::BEGIN@12";
+	"IO::Socket::accept";
+	"IO::Socket::BEGIN@17";
+	"IO::Socket::listen";
+	"IO::Socket::CORE:pack";
+	"IO::Socket::setsockopt";
+	"IO::Socket::CORE:getpeername";
+	"IO::Socket::bind";
+	"IO::Socket::CORE:ssockopt";
+	"IO::Socket::BEGIN@13";
+	"IO::Socket::sockopt";
+	"IO::Socket::register_domain";
+	"IO::Socket::import";
+	"IO::Socket::BEGIN@16";
+	"IO::Socket::BEGIN@14";
+	"IO::Socket::close";
+	"IO::Socket::CORE:listen";
+	"IO::Socket::CORE:socket";
+	"IO::Socket::CORE:bind";
+	"IO::Socket::BEGIN@11";
+	"IO::Socket::new";
+	"IO::Socket::socket";
+	"IO::Socket::CORE:accept";
+	"IO::Socket::peername";
+}
+subgraph cluster_File_Temp {
+	label="File::Temp";
+	"File::Temp::__ANON__[File/Temp.pm:275]";
+	"File::Temp::__ANON__[File/Temp.pm:253]";
+	"File::Temp::BEGIN@230";
+	"File::Temp::BEGIN@144";
+	"File::Temp::BEGIN@142";
+	"File::Temp::BEGIN@224";
+	"File::Temp::__ANON__[File/Temp.pm:245]";
+	"File::Temp::BEGIN@147";
+	"File::Temp::BEGIN@229";
+	"File::Temp::BEGIN@217";
+	"File::Temp::BEGIN@162";
+	"File::Temp::BEGIN@141";
+	"File::Temp::BEGIN@148";
+	"File::Temp::BEGIN@163";
+	"File::Temp::BEGIN@166";
+	"File::Temp::BEGIN@220";
+	"File::Temp::BEGIN@143";
+	"File::Temp::BEGIN@228";
+	"File::Temp::BEGIN@173";
+	"File::Temp::BEGIN@146";
+	"File::Temp::BEGIN@241";
+	"File::Temp::BEGIN@271";
+	"File::Temp::BEGIN@145";
+}
+subgraph cluster_Plack_HTTPParser {
+	label="Plack::HTTPParser";
+	"Plack::HTTPParser::BEGIN@3";
+	"Plack::HTTPParser::BEGIN@7";
+	"Plack::HTTPParser::BEGIN@2";
+}
+subgraph cluster_File_Spec {
+	label="File::Spec";
+	"File::Spec::BEGIN@4";
+	"File::Spec::BEGIN@3";
+}
+subgraph cluster_Benty {
+	label="Benty";
+	"Benty::BEGIN@3";
+	"Benty::__ANON__[/home/azuma/Benty/lib/Benty.pm:16]";
+	"Benty::__ANON__[/home/azuma/Benty/lib/Benty.pm:25]";
+	"Benty::BEGIN@4";
+	"Benty::BEGIN@2";
+}
+subgraph cluster_POSIX {
+	label="POSIX";
+	"POSIX::load_imports";
+	"POSIX::setlocale";
+	"POSIX::LC_ALL";
+	"POSIX::AUTOLOAD";
+	"POSIX::import";
+	"POSIX::BEGIN@9";
+	"POSIX::BEGIN@3";
+	"POSIX::BEGIN@39";
+	"POSIX::BEGIN@2";
+	"POSIX::BEGIN@13";
+	"POSIX::strftime";
+	"POSIX::CORE:match";
+}
+subgraph cluster_lib {
+	label="lib";
+	"lib::_get_dirs";
+	"lib::BEGIN@6";
+	"lib::CORE:match";
+	"lib::BEGIN@8";
+	"lib::CORE:ftis";
+	"lib::CORE:ftdir";
+	"lib::import";
+}
+subgraph cluster_Hash_MultiValue {
+	label="Hash::MultiValue";
+	"Hash::MultiValue::BEGIN@8";
+	"Hash::MultiValue::BEGIN@18";
+	"Hash::MultiValue::BEGIN@3";
+	"Hash::MultiValue::BEGIN@5";
+	"Hash::MultiValue::BEGIN@9";
+	"Hash::MultiValue::BEGIN@12";
+	"Hash::MultiValue::BEGIN@4";
+}
+subgraph cluster_Devel_StackTrace_Frame {
+	label="Devel::StackTrace::Frame";
+	"Devel::StackTrace::Frame::BEGIN@7";
+	"Devel::StackTrace::Frame::BEGIN@11";
+	"Devel::StackTrace::Frame::BEGIN@10";
+	"Devel::StackTrace::Frame::BEGIN@2";
+	"Devel::StackTrace::Frame::BEGIN@6";
+}
+subgraph cluster_Config_Micro {
+	label="Config::Micro";
+	"Config::Micro::BEGIN@3.1";
+	"Config::Micro::BEGIN@5";
+	"Config::Micro::BEGIN@7";
+	"Config::Micro::BEGIN@4";
+	"Config::Micro::CORE:match";
+	"Config::Micro::BEGIN@6";
+	"Config::Micro::BEGIN@3";
+	"Config::Micro::file";
+}
+subgraph cluster_Time_HiRes {
+	label="Time::HiRes";
+	"Time::HiRes::alarm";
+	"Time::HiRes::BEGIN@42";
+	"Time::HiRes::BEGIN@4";
+	"Time::HiRes::BEGIN@3";
+	"Time::HiRes::import";
+	"Time::HiRes::time";
+	"Time::HiRes::bootstrap";
+}
+subgraph cluster_HTTP_Date {
+	label="HTTP::Date";
+	"HTTP::Date::time2str";
+	"HTTP::Date::BEGIN@13";
+	"HTTP::Date::BEGIN@10";
+}
+subgraph cluster_JSON_Backend_XS {
+	label="JSON::Backend::XS";
+	"JSON::Backend::XS::BEGIN@29";
+	"JSON::Backend::XS::BEGIN@18";
+	"JSON::Backend::XS::BEGIN@42";
+	"JSON::Backend::XS::BEGIN@11";
+	"JSON::Backend::XS::init";
+	"JSON::Backend::XS::BEGIN@9";
+}
+subgraph cluster_Plack_App_File {
+	label="Plack::App::File";
+	"Plack::App::File::BEGIN@4";
+	"Plack::App::File::CORE:open";
+	"Plack::App::File::BEGIN@8";
+	"Plack::App::File::BEGIN@9";
+	"Plack::App::File::allow_path_info";
+	"Plack::App::File::BEGIN@7";
+	"Plack::App::File::should_handle";
+	"Plack::App::File::BEGIN@2";
+	"Plack::App::File::BEGIN@3";
+	"Plack::App::File::locate_file";
+	"Plack::App::File::call";
+	"Plack::App::File::BEGIN@11";
+	"Plack::App::File::CORE:match";
+	"Plack::App::File::return_404";
+	"Plack::App::File::CORE:ftfile";
+	"Plack::App::File::serve_path";
+	"Plack::App::File::BEGIN@5";
+	"Plack::App::File::CORE:stat";
+	"Plack::App::File::BEGIN@6";
+	"Plack::App::File::CORE:fteread";
+}
+subgraph cluster_Plack_Middleware_StackTrace {
+	label="Plack::Middleware::StackTrace";
+	"Plack::Middleware::StackTrace::BEGIN@7";
+	"Plack::Middleware::StackTrace::BEGIN@4";
+	"Plack::Middleware::StackTrace::BEGIN@3";
+	"Plack::Middleware::StackTrace::call";
+	"Plack::Middleware::StackTrace::BEGIN@8";
+	"Plack::Middleware::StackTrace::BEGIN@5";
+	"Plack::Middleware::StackTrace::BEGIN@2";
+	"Plack::Middleware::StackTrace::BEGIN@6";
+}
+subgraph cluster_Plack_Response {
+	label="Plack::Response";
+	"Plack::Response::BEGIN@3";
+	"Plack::Response::BEGIN@11";
+	"Plack::Response::BEGIN@7";
+	"Plack::Response::BEGIN@2";
+	"Plack::Response::BEGIN@9";
+	"Plack::Response::BEGIN@8";
+	"Plack::Response::BEGIN@10";
+}
+subgraph cluster_Encode_Alias {
+	label="Encode::Alias";
+	"Encode::Alias::BEGIN@8";
+	"Encode::Alias::CORE:regcomp";
+	"Encode::Alias::undef_aliases";
+	"Encode::Alias::CORE:qr";
+	"Encode::Alias::BEGIN@3";
+	"Encode::Alias::CORE:match";
+	"Encode::Alias::BEGIN@4";
+	"Encode::Alias::define_alias";
+	"Encode::Alias::find_alias";
+	"Encode::Alias::init_aliases";
+	"Encode::Alias::BEGIN@2";
+}
+"HTTP::Body::BEGIN@26" -> "HTTP::Message::BEGIN@3";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@31";
+"Nephia::Core::__ANON__[Nephia/Core.pm:47]" -> "Nephia::Core::json_res";
+"Plack::Middleware::BEGIN@7" -> "Plack::Util::Accessor::BEGIN@14";
+"File::Temp::BEGIN@148" -> "Errno::BEGIN@8";
+"HTTP::Server::PSGI::BEGIN@19" -> "Time::HiRes::BEGIN@4";
+"File::Temp::BEGIN@145" -> "File::Path::BEGIN@4";
+"FindBin::init" -> "File::Basename::fileparse";
+"File::Basename::dirname" -> "File::Basename::fileparse";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@13";
+"IO::Socket::setsockopt" -> "IO::Socket::CORE:ssockopt";
+"URI::BEGIN@22" -> "URI::Escape::CORE:qr";
+"Plack::Middleware::StackTrace::BEGIN@5" -> "Devel::StackTrace::BEGIN@16";
+"HTTP::Server::PSGI::accept_loop" -> "Plack::Middleware::wrap";
+"Plack::Runner::__ANON__" -> "Plack::Middleware::wrap";
+"Plack::Builder::__ANON__[Plack/Builder.pm:20]" -> "Plack::Middleware::wrap";
+"HTTP::Server::PSGI::read_timeout" -> "HTTP::Server::PSGI::do_timeout";
+"HTTP::Server::PSGI::write_timeout" -> "HTTP::Server::PSGI::do_timeout";
+"Nephia::Core::BEGIN@10" -> "Nephia::View::BEGIN@3";
+"utf8::SWASHNEW" -> "utf8::CORE:sort";
+"Plack::Runner::locate_app" -> "File::Basename::BEGIN@371";
+"Nephia::Core::__ANON__[Nephia/Core.pm:47]" -> "Nephia::Core::render";
+"Nephia::Core::__ANON__[Nephia/Core.pm:115]" -> "Nephia::Core::CORE:qr";
+"File::Basename::_strip_trailing_sep" -> "File::Basename::CORE:subst";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@228";
+"File::Path::BEGIN@6" -> "Exporter::import";
+"Plack::App::File::BEGIN@9" -> "Exporter::import";
+"IO::Socket::INET::BEGIN@15" -> "Exporter::import";
+"HTTP::Server::PSGI::BEGIN@9" -> "Exporter::import";
+"File::Temp::BEGIN@147" -> "Exporter::import";
+"Nephia::Core::BEGIN@12" -> "Exporter::import";
+"HTTP::Body::MultiPart::BEGIN@10" -> "Exporter::import";
+"Text::MicroTemplate::BEGIN@13" -> "Exporter::import";
+"IO::Socket::INET::BEGIN@14" -> "Exporter::import";
+"File::Temp::Dir::BEGIN@2405" -> "Exporter::import";
+"HTTP::Body::MultiPart::BEGIN@11" -> "Exporter::import";
+"Nephia::Core::BEGIN@13" -> "Exporter::import";
+"IO::Socket::INET::BEGIN@12" -> "Exporter::import";
+"Nephia::View::MicroTemplate::BEGIN@4" -> "Exporter::import";
+"Stream::Buffered::BEGIN@5" -> "Exporter::import";
+"Config::Micro::BEGIN@7" -> "Exporter::import";
+"Text::MicroTemplate::BEGIN@14" -> "Exporter::import";
+"File::Temp::BEGIN@145" -> "Exporter::import";
+"Nephia::Core::BEGIN@8" -> "Exporter::import";
+"IO::Socket::BEGIN@12" -> "Exporter::import";
+"Devel::StackTrace::AsHTML::BEGIN@9" -> "Exporter::import";
+"FindBin::BEGIN@98" -> "Exporter::import";
+"Socket::BEGIN@310" -> "Exporter::import";
+"Text::MicroTemplate::File::BEGIN@6" -> "Exporter::import";
+"Nephia::BEGIN@17" -> "Exporter::import";
+"Stream::Buffered::File::BEGIN@6" -> "Exporter::import";
+"IO::File::BEGIN@130" -> "Exporter::import";
+"Devel::StackTrace::BEGIN@13" -> "Exporter::import";
+"HTTP::Body::XForms::BEGIN@10" -> "Exporter::import";
+"JSON::XS::BEGIN@121" -> "Exporter::import";
+"IO::Seekable::BEGIN@98" -> "Exporter::import";
+"Hash::MultiValue::BEGIN@9" -> "Exporter::import";
+"Plack::Middleware::StackTrace::BEGIN@7" -> "Exporter::import";
+"Cwd::BEGIN@171" -> "Exporter::import";
+"Text::MicroTemplate::File::BEGIN@8" -> "Exporter::import";
+"File::Temp::BEGIN@143" -> "Exporter::import";
+"Time::Local::BEGIN@4" -> "Exporter::import";
+"Plack::Middleware::Lint::BEGIN@6" -> "Exporter::import";
+"FindBin::BEGIN@99" -> "Exporter::import";
+"IO::File::BEGIN@131" -> "Exporter::import";
+"IO::Seekable::BEGIN@104" -> "Exporter::import";
+"Nephia::Core::BEGIN@5" -> "Exporter::import";
+"HTTP::Server::PSGI::BEGIN@11" -> "Exporter::import";
+"HTTP::Body::OctetStream::BEGIN@10" -> "Exporter::import";
+"Nephia::View::MicroTemplate::BEGIN@7" -> "Exporter::import";
+"IO::Socket::INET::BEGIN@13" -> "Exporter::import";
+"IO::Socket::BEGIN@13" -> "Exporter::import";
+"HTTP::Body::XFormsMultipart::BEGIN@10" -> "Exporter::import";
+"IO::Socket::BEGIN@16" -> "Exporter::import";
+"Data::Dumper::BEGIN@20" -> "Exporter::import";
+"Router::Simple::BEGIN@8" -> "Exporter::import";
+"Storable::BEGIN@51" -> "Exporter::import";
+"Plack::Sandbox::app_2epsgi::BEGIN@3" -> "Exporter::import";
+"Nephia::View::MicroTemplate::BEGIN@6" -> "Exporter::import";
+"Plack::HTTPParser::BEGIN@7" -> "Exporter::import";
+"Router::Simple::SubMapper::BEGIN@4" -> "Exporter::import";
+"POSIX::import" -> "Exporter::import";
+"Encode::BEGIN@48" -> "Exporter::import";
+"IO::Socket::BEGIN@11" -> "Exporter::import";
+"POSIX::BEGIN@13" -> "Exporter::import";
+"Plack::Sandbox::app_2epsgi::BEGIN@3.3" -> "Exporter::import";
+"FindBin::BEGIN@95" -> "Exporter::import";
+"IO::Socket::BEGIN@17" -> "Exporter::import";
+"IO::File::BEGIN@133" -> "Exporter::import";
+"Tie::Hash::BEGIN@188" -> "Exporter::import";
+"File::Temp::BEGIN@148" -> "Exporter::import";
+"HTTP::Body::XFormsMultipart::BEGIN@11" -> "Exporter::import";
+"HTTP::Server::PSGI::BEGIN@7" -> "Exporter::import";
+"HTTP::Server::PSGI::BEGIN@18" -> "Exporter::import";
+"File::Temp::BEGIN@146" -> "Exporter::import";
+"HTTP::Server::PSGI::BEGIN@10" -> "Exporter::import";
+"HTTP::Server::PSGI::BEGIN@16" -> "Exporter::import";
+"Plack::Loader::BEGIN@5" -> "Exporter::import";
+"IO::Socket::UNIX::BEGIN@12" -> "Exporter::import";
+"Devel::StackTrace::AsHTML::BEGIN@7" -> "Exporter::import";
+"Plack::Sandbox::app_2epsgi::BEGIN@4" -> "Config::Micro::BEGIN@7";
+"parent::import" -> "Plack::Middleware::BEGIN@3";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@145";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@271";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@8";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::BEGIN@12";
+"HTTP::Server::PSGI::BEGIN@6" -> "Plack::BEGIN@3";
+"JSON::_load_xs" -> "JSON::CORE:close";
+"Plack::App::File::serve_path" -> "Plack::App::File::CORE:open";
+"Plack::Util::load_class" -> "Plack::Middleware::Lint::BEGIN@7";
+"Nephia::Core::BEGIN@7" -> "Plack::Response::BEGIN@2";
+"Nephia::Core::BEGIN@11" -> "JSON::BEGIN@4";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::Dir::BEGIN@2406";
+"HTTP::Body::OctetStream::BEGIN@10" -> "Fcntl::O_BINARY";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@162";
+"HTTP::Body::BEGIN@26" -> "URI::BEGIN@24";
+"Nephia::View::MicroTemplate::new" -> "Text::MicroTemplate::File::new";
+"Plack::App::File::serve_path" -> "Plack::App::File::CORE:match";
+"Plack::App::File::locate_file" -> "Plack::App::File::CORE:match";
+"HTTP::Body::OctetStream::BEGIN@10" -> "Exporter::Heavy::_push_tags";
+"Plack::Middleware::Lint::call" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Plack::App::File::serve_path" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Plack::Util::response_cb" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Plack::Middleware::ContentLength::call" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Plack::Middleware::AccessLog::log_line" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Plack::Middleware::Static::_handle_static" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Plack::App::File::locate_file" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Plack::Middleware::Static::call" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Plack::Middleware::AccessLog::call" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Try::Tiny::try" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Plack::App::File::call" -> "Plack::Util::Accessor::__ANON__[Plack/Util/Accessor.pm:19]";
+"Plack::Util::load_class" -> "Plack::Middleware::AccessLog::BEGIN@5";
+"IO::Socket::BEGIN@12" -> "Socket::CORE:qr";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::MultiPart::BEGIN@8";
+"Plack::Util::load_class" -> "Plack::Middleware::Lint::BEGIN@6";
+"HTTP::Body::MultiPart::BEGIN@10" -> "IO::File::BEGIN@131";
+"Devel::StackTrace::AsHTML::BEGIN@7" -> "Data::Dumper::BEGIN@16";
+"Plack::Util::load_class" -> "Plack::Middleware::StackTrace::BEGIN@2";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::XFormsMultipart::BEGIN@8";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::MultiPart::BEGIN@12";
+"Plack::Builder::enable" -> "Plack::Builder::__ANON__[Plack/Builder.pm:93]";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@230";
+"Time::Local::BEGIN@5" -> "Config::TIEHASH";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@10";
+"Nephia::View::MicroTemplate::BEGIN@4" -> "Text::MicroTemplate::File::BEGIN@5";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::BEGIN@26";
+"Nephia::Core::BEGIN@13" -> "Encode::BEGIN@9";
+"Plack::Request::BEGIN@8" -> "HTTP::Headers::BEGIN@3";
+"Plack::App::File::locate_file" -> "Plack::App::File::return_404";
+"Nephia::Core::BEGIN@13" -> "Encode::BEGIN@13";
+"Plack::Runner::__ANON__" -> "Plack::Sandbox::app_2epsgi::BEGIN@3";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::BEGIN@11";
+"Nephia::Core::json_res" -> "JSON::XS::utf8";
+"Plack::Request::BEGIN@10" -> "Hash::MultiValue::BEGIN@4";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "POSIX::BEGIN@9";
+"IO::Socket::INET::_sock_info" -> "IO::Socket::INET::CORE:match";
+"Encode::encode" -> "Text::MicroTemplate::EncodedString::__ANON__[Text/MicroTemplate.pm:433]";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@5";
+"Text::MicroTemplate::File::build_file" -> "Text::MicroTemplate::parse";
+"Nephia::Core::BEGIN@8" -> "Plack::Builder::BEGIN@3";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:96]" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:79]";
+"File::Basename::fileparse" -> "File::Basename::CORE:match";
+"File::Basename::fileparse_set_fstype" -> "File::Basename::CORE:match";
+"HTTP::Server::PSGI::handle_connection" -> "Plack::Util::run_app";
+"Nephia::Core::BEGIN@7" -> "Plack::Response::BEGIN@11";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:96]" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:80]";
+"Plack::Middleware::StackTrace::BEGIN@5" -> "Devel::StackTrace::BEGIN@6";
+"IO::Socket::INET::_sock_info" -> "IO::Socket::INET::CORE:subst";
+"Plack::App::File::locate_file" -> "Plack::App::File::allow_path_info";
+"Fcntl::O_NOINHERIT" -> "File::Temp::__ANON__[File/Temp.pm:245]";
+"FindBin::BEGIN@98" -> "Cwd::CORE:regcomp";
+"Plack::Util::response_cb" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:32]";
+"HTTP::Server::PSGI::BEGIN@19" -> "Time::HiRes::BEGIN@42";
+"Plack::Component::to_app" -> "Plack::Component::prepare_app";
+"Router::Simple::Route::BEGIN@6" -> "Class::Accessor::Lite::BEGIN@3";
+"FindBin::init" -> "FindBin::cwd2";
+"Nephia::Core::BEGIN@13" -> "Encode::utf8::BEGIN@323";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::OctetStream::BEGIN@6";
+"Plack::App::File::should_handle" -> "Plack::App::File::CORE:ftfile";
+"Router::Simple::BEGIN@6" -> "Router::Simple::SubMapper::BEGIN@2";
+"HTTP::Body::BEGIN@26" -> "URI::BEGIN@21";
+"Nephia::Core::BEGIN@9" -> "Router::Simple::BEGIN@9";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@18";
+"Plack::Util::response_cb" -> "Plack::Util::Prototype::AUTOLOAD";
+"utf8::AUTOLOAD" -> "utf8::BEGIN@3";
+"IO::Socket::INET::bind" -> "Socket::pack_sockaddr_in";
+"Plack::Util::load_class" -> "Plack::Middleware::AccessLog::BEGIN@15";
+"Plack::Util::load_class" -> "Plack::Loader::BEGIN@3";
+"Tie::Hash::BEGIN@189" -> "warnings::register::import";
+"Socket::BEGIN@311" -> "warnings::register::import";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::BEGIN@8";
+"Plack::Request::BEGIN@14" -> "Stream::Buffered::BEGIN@8";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::EncodedString::BEGIN@430";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@142";
+"Devel::StackTrace::BEGIN@11" -> "Devel::StackTrace::Frame::BEGIN@6";
+"Plack::App::File::locate_file" -> "Plack::App::File::should_handle";
+"Devel::StackTrace::AsHTML::BEGIN@7" -> "Data::Dumper::BEGIN@22";
+"Devel::StackTrace::BEGIN@11" -> "Devel::StackTrace::Frame::BEGIN@7";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::Dir::BEGIN@2405";
+"Router::Simple::BEGIN@7" -> "Router::Simple::Route::BEGIN@3";
+"HTTP::Server::PSGI::setup_listener" -> "HTTP::Server::PSGI::prepare_socket_class";
+"HTTP::Server::PSGI::handle_connection" -> "HTTP::Server::PSGI::read_timeout";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@30";
+"Stream::Buffered::BEGIN@6" -> "Stream::Buffered::Auto::BEGIN@4";
+"Time::HiRes::import" -> "Exporter::export_to_level";
+"AutoLoader::AUTOLOAD" -> "AutoLoader::find_filename";
+"Plack::Middleware::Lint::validate_res" -> "Plack::Middleware::Lint::_is_really_utf8";
+"Nephia::View::MicroTemplate::BEGIN@4" -> "Text::MicroTemplate::File::BEGIN@4";
+"utf8::AUTOLOAD" -> "utf8::BEGIN@460";
+"Plack::Middleware::Static::BEGIN@5" -> "Plack::App::File::BEGIN@6";
+"Try::Tiny::try" -> "UNIVERSAL::can";
+"attributes::import" -> "UNIVERSAL::can";
+"Try::Tiny::try" -> "HTTP::Parser::XS::CORE:match";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@2";
+"HTTP::Body::MultiPart::BEGIN@10" -> "IO::File::BEGIN@132";
+"HTTP::Body::BEGIN@26" -> "URI::BEGIN@3";
+"Plack::Middleware::StackTrace::BEGIN@6" -> "Devel::StackTrace::AsHTML::BEGIN@9";
+"Config::BEGIN@45" -> "strict::unimport";
+"JSON::Backend::XS::BEGIN@42" -> "strict::unimport";
+"AutoLoader::BEGIN@138" -> "strict::unimport";
+"Cwd::BEGIN@823" -> "strict::unimport";
+"Nephia::Core::BEGIN@83" -> "strict::unimport";
+"URI::BEGIN@128" -> "strict::unimport";
+"AutoLoader::BEGIN@186" -> "strict::unimport";
+"File::Spec::Unix::BEGIN@149" -> "strict::unimport";
+"Text::MicroTemplate::File::BEGIN@104" -> "strict::unimport";
+"Plack::Util::Accessor::BEGIN@14" -> "strict::unimport";
+"utf8::BEGIN@123" -> "strict::unimport";
+"Nephia::Core::BEGIN@30" -> "strict::unimport";
+"Nephia::Core::BEGIN@178" -> "strict::unimport";
+"Nephia::BEGIN@14" -> "strict::unimport";
+"Class::Accessor::Lite::BEGIN@62" -> "strict::unimport";
+"Socket::BEGIN@628" -> "strict::unimport";
+"FileHandle::BEGIN@46" -> "strict::unimport";
+"File::Temp::BEGIN@241" -> "strict::unimport";
+"File::Temp::BEGIN@271" -> "strict::unimport";
+"JSON::Backend::XS::BEGIN@29" -> "strict::unimport";
+"HTTP::Message::BEGIN@643" -> "strict::unimport";
+"utf8::BEGIN@399" -> "strict::unimport";
+"Class::Accessor::Lite::BEGIN@84" -> "strict::unimport";
+"Time::HiRes::BEGIN@42" -> "strict::unimport";
+"JSON::Backend::XS::Supportable::BEGIN@99" -> "strict::unimport";
+"JSON::Backend::PP::BEGIN@383" -> "strict::unimport";
+"Devel::StackTrace::Frame::BEGIN@11" -> "strict::unimport";
+"Class::Accessor::Lite::BEGIN@76" -> "strict::unimport";
+"JSON::BEGIN@318" -> "strict::unimport";
+"Exporter::Heavy::BEGIN@4" -> "strict::unimport";
+"Class::Accessor::Lite::BEGIN@68" -> "strict::unimport";
+"Text::MicroTemplate::BEGIN@406" -> "strict::unimport";
+"File::Path::BEGIN@329" -> "strict::unimport";
+"AutoLoader::BEGIN@30" -> "strict::unimport";
+"Class::Accessor::Lite::BEGIN@92" -> "strict::unimport";
+"Encode::BEGIN@13" -> "base::import";
+"HTTP::Body::OctetStream::BEGIN@7" -> "base::import";
+"HTTP::Body::MultiPart::BEGIN@7" -> "base::import";
+"Encode::Alias::BEGIN@8" -> "base::import";
+"JSON::BEGIN@6" -> "base::import";
+"HTTP::Body::XForms::BEGIN@7" -> "base::import";
+"HTTP::Parser::XS::BEGIN@6" -> "base::import";
+"File::Temp::BEGIN@173" -> "base::import";
+"Stream::Buffered::PerlIO::BEGIN@4" -> "base::import";
+"File::Temp::BEGIN@162" -> "base::import";
+"Stream::Buffered::File::BEGIN@4" -> "base::import";
+"HTTP::Body::UrlEncoded::BEGIN@7" -> "base::import";
+"Stream::Buffered::Auto::BEGIN@4" -> "base::import";
+"HTTP::Body::XFormsMultipart::BEGIN@7" -> "base::import";
+"Plack::Runner::locate_app" -> "File::Basename::fileparse_set_fstype";
+"Plack::Util::load_class" -> "Plack::Middleware::Lint::BEGIN@5";
+"Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:47]" -> "Text::MicroTemplate::encoded_string";
+"Nephia::View::MicroTemplate::__ANON__[(eval 26)[Text/MicroTemplate.pm:389]:47]" -> "Text::MicroTemplate::encoded_string";
+"Nephia::View::MicroTemplate::__ANON__[(eval 28)[Text/MicroTemplate.pm:389]:47]" -> "Text::MicroTemplate::encoded_string";
+"Nephia::View::MicroTemplate::__ANON__[(eval 27)[Text/MicroTemplate.pm:389]:47]" -> "Text::MicroTemplate::encoded_string";
+"Nephia::View::MicroTemplate::__ANON__[(eval 25)[Text/MicroTemplate.pm:389]:47]" -> "Text::MicroTemplate::encoded_string";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@7";
+"HTTP::Server::PSGI::BEGIN@19" -> "Time::HiRes::import";
+"HTTP::Server::PSGI::BEGIN@22" -> "Time::HiRes::import";
+"POSIX::SigRt::BEGIN@56" -> "AutoLoader::import";
+"POSIX::SigAction::BEGIN@52" -> "AutoLoader::import";
+"POSIX::BEGIN@9" -> "AutoLoader::import";
+"JSON::BEGIN@2" -> "JSON::XS::BEGIN@121";
+"Text::MicroTemplate::EncodedString::BEGIN@433" -> "overload::import";
+"File::Temp::BEGIN@163" -> "overload::import";
+"JSON::XS::Boolean::BEGIN@3" -> "overload::import";
+"JSON::PP::Boolean::BEGIN@3" -> "overload::import";
+"Plack::Component::BEGIN@6" -> "overload::import";
+"File::Temp::Dir::BEGIN@2407" -> "overload::import";
+"URI::BEGIN@24" -> "overload::import";
+"JSON::XS::Boolean::BEGIN@1477" -> "overload::import";
+"Devel::StackTrace::BEGIN@16" -> "overload::import";
+"File::Temp::BEGIN@147" -> "IO::Seekable::BEGIN@98";
+"HTTP::Server::PSGI::_handle_response" -> "Plack::Util::foreach";
+"Plack::Sandbox::app_2epsgi::BEGIN@2" -> "warnings::import";
+"Config::Micro::BEGIN@5" -> "warnings::import";
+"POSIX::BEGIN@3" -> "warnings::import";
+"Stream::Buffered::Auto::BEGIN@3" -> "warnings::import";
+"Plack::Handler::Standalone::BEGIN@3" -> "warnings::import";
+"Devel::StackTrace::Frame::BEGIN@7" -> "warnings::import";
+"Plack::Util::Accessor::BEGIN@3" -> "warnings::import";
+"Router::Simple::Route::BEGIN@3" -> "warnings::import";
+"Config::BEGIN@10" -> "warnings::import";
+"Stream::Buffered::PerlIO::BEGIN@3" -> "warnings::import";
+"Router::Simple::SubMapper::BEGIN@3" -> "warnings::import";
+"Plack::Request::BEGIN@3" -> "warnings::import";
+"Text::MicroTemplate::File::BEGIN@4" -> "warnings::import";
+"Nephia::View::MicroTemplate::BEGIN@3" -> "warnings::import";
+"Devel::StackTrace::BEGIN@9" -> "warnings::import";
+"Encode::BEGIN@6" -> "warnings::import";
+"Encode::Alias::BEGIN@3" -> "warnings::import";
+"Plack::App::URLMap::BEGIN@3" -> "warnings::import";
+"Plack::Middleware::BEGIN@3" -> "warnings::import";
+"Nephia::BEGIN@3" -> "warnings::import";
+"Benty::BEGIN@3" -> "warnings::import";
+"Plack::Response::BEGIN@3" -> "warnings::import";
+"Encode::Config::BEGIN@8" -> "warnings::import";
+"Plack::Middleware::StackTrace::BEGIN@3" -> "warnings::import";
+"Plack::BEGIN@4" -> "warnings::import";
+"Encode::Encoding::BEGIN@5" -> "warnings::import";
+"Plack::App::File::BEGIN@3" -> "warnings::import";
+"Stream::Buffered::BEGIN@3" -> "warnings::import";
+"Nephia::ClassLoader::BEGIN@3" -> "warnings::import";
+"HTTP::Server::PSGI::BEGIN@3" -> "warnings::import";
+"Plack::Request::Upload::BEGIN@3" -> "warnings::import";
+"File::Basename::BEGIN@52" -> "warnings::import";
+"Plack::Middleware::Static::BEGIN@3" -> "warnings::import";
+"utf8::BEGIN@3" -> "warnings::import";
+"Nephia::Core::BEGIN@3" -> "warnings::import";
+"Plack::Component::BEGIN@3" -> "warnings::import";
+"Router::Simple::BEGIN@3" -> "warnings::import";
+"Stream::Buffered::File::BEGIN@3" -> "warnings::import";
+"Text::MicroTemplate::BEGIN@9" -> "warnings::import";
+"HTTP::Parser::XS::BEGIN@4" -> "warnings::import";
+"Text::MicroTemplate::EncodedString::BEGIN@431" -> "warnings::import";
+"Nephia::View::BEGIN@4" -> "warnings::import";
+"Plack::Middleware::AccessLog::BEGIN@3" -> "warnings::import";
+"Plack::Middleware::ContentLength::BEGIN@3" -> "warnings::import";
+"HTTP::Server::PSGI::BEGIN@10" -> "HTTP::Status::CORE:subst";
+"Plack::Middleware::Lint::validate_res" -> "Plack::Middleware::Lint::CORE:match";
+"Plack::Middleware::Lint::validate_env" -> "Plack::Middleware::Lint::CORE:match";
+"Plack::Middleware::Static::_handle_static" -> "Plack::Middleware::Static::CORE:regcomp";
+"Plack::Util::load_class" -> "Plack::Middleware::AccessLog::BEGIN@3";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@11";
+"utf8::AUTOLOAD" -> "utf8::BEGIN@2";
+"Plack::Runner::__ANON__" -> "Plack::Sandbox::app_2epsgi::BEGIN@2";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@6";
+"POSIX::BEGIN@9" -> "AutoLoader::BEGIN@186";
+"Nephia::ClassLoader::load" -> "Nephia::View::MicroTemplate::BEGIN@7";
+"AutoLoader::find_filename" -> "AutoLoader::CORE:match";
+"AutoLoader::import" -> "AutoLoader::CORE:match";
+"Plack::Middleware::Lint::call" -> "Plack::Middleware::Lint::validate_env";
+"Plack::Middleware::Static::call" -> "Plack::Middleware::Static::_handle_static";
+"HTTP::Server::PSGI::BEGIN@8" -> "IO::Socket::INET::BEGIN@13";
+"Router::Simple::_match" -> "Router::Simple::Route::match";
+"Config::Micro::file" -> "Config::Micro::CORE:match";
+"Router::Simple::BEGIN@6" -> "Router::Simple::SubMapper::BEGIN@3";
+"Nephia::Core::BEGIN@9" -> "Router::Simple::BEGIN@8";
+"Devel::StackTrace::AsHTML::BEGIN@7" -> "Data::Dumper::BEGIN@20";
+"File::Temp::BEGIN@147" -> "IO::Seekable::BEGIN@101";
+"Plack::App::File::BEGIN@9" -> "HTTP::Date::BEGIN@13";
+"Time::Local::BEGIN@8" -> "vars::import";
+"URI::BEGIN@7" -> "vars::import";
+"Time::HiRes::BEGIN@4" -> "vars::import";
+"Cwd::BEGIN@172" -> "vars::import";
+"URI::BEGIN@13" -> "vars::import";
+"POSIX::SigRt::BEGIN@60" -> "vars::import";
+"URI::BEGIN@4" -> "vars::import";
+"File::Temp::BEGIN@166" -> "vars::import";
+"HTTP::Date::BEGIN@13" -> "vars::import";
+"HTTP::Headers::BEGIN@6" -> "vars::import";
+"File::Path::BEGIN@19" -> "vars::import";
+"HTTP::Message::BEGIN@4" -> "vars::import";
+"Config::BEGIN@11" -> "vars::import";
+"base::BEGIN@4" -> "vars::import";
+"File::Spec::BEGIN@4" -> "vars::import";
+"File::Spec::Unix::BEGIN@4" -> "vars::import";
+"Storable::BEGIN@22" -> "vars::import";
+"HTTP::Status::BEGIN@6" -> "vars::import";
+"Nephia::Core::BEGIN@9" -> "Router::Simple::BEGIN@11";
+"Router::Simple::BEGIN@6" -> "Router::Simple::SubMapper::BEGIN@4";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@220";
+"Plack::Middleware::AccessLog::log_line" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:68]";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "POSIX::SigAction::BEGIN@52";
+"HTTP::Body::BEGIN@26" -> "URI::BEGIN@22";
+"File::Spec::Unix::rel2abs" -> "File::Spec::Unix::file_name_is_absolute";
+"FindBin::init" -> "File::Spec::Unix::file_name_is_absolute";
+"Text::MicroTemplate::File::build_file" -> "File::Spec::Unix::file_name_is_absolute";
+"Fcntl::O_EXLOCK" -> "File::Temp::__ANON__[File/Temp.pm:253]";
+"Exporter::Heavy::_rebuild_cache" -> "Exporter::Heavy::CORE:subst";
+"Exporter::import" -> "Exporter::Heavy::CORE:subst";
+"FileHandle::import" -> "Exporter::Heavy::CORE:subst";
+"Time::HiRes::import" -> "Exporter::Heavy::CORE:subst";
+"IO::Socket::import" -> "Exporter::Heavy::CORE:subst";
+"HTTP::Server::PSGI::do_timeout" -> "Time::HiRes::time";
+"Text::MicroTemplate::encoded_string" -> "Text::MicroTemplate::EncodedString::new";
+"HTTP::Server::PSGI::handle_connection" -> "HTTP::Server::PSGI::_handle_response";
+"Plack::Request::BEGIN@10" -> "Hash::MultiValue::BEGIN@3";
+"FindBin::BEGIN@98" -> "Cwd::BEGIN@172";
+"HTTP::Server::PSGI::BEGIN@19" -> "Time::HiRes::BEGIN@3";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@217";
+"Stream::Buffered::BEGIN@7" -> "Stream::Buffered::File::BEGIN@2";
+"Hash::MultiValue::BEGIN@18" -> "Config::FETCH";
+"FindBin::BEGIN@98" -> "Config::FETCH";
+"Plack::Sandbox::app_2epsgi::BEGIN@7" -> "Config::FETCH";
+"HTTP::Server::PSGI::BEGIN@19" -> "Config::FETCH";
+"File::Temp::BEGIN@148" -> "Config::FETCH";
+"attributes::import" -> "attributes::_modify_attrs_and_deprecate";
+"Plack::Sandbox::app_2epsgi::BEGIN@4" -> "Config::Micro::BEGIN@3.1";
+"Nephia::Core::BEGIN@11" -> "JSON::BEGIN@318";
+"Plack::Sandbox::app_2epsgi::BEGIN@8" -> "Benty::BEGIN@4";
+"Plack::App::File::locate_file" -> "File::Spec::Unix::catfile";
+"Nephia::ClassLoader::load" -> "File::Spec::Unix::catfile";
+"FindBin::init" -> "File::Spec::Unix::catfile";
+"Plack::Runner::__ANON__" -> "File::Spec::Unix::catfile";
+"Config::Micro::file" -> "File::Spec::Unix::catfile";
+"IO::Socket::close" -> "IO::Handle::close";
+"Plack::Util::load_class" -> "Plack::Handler::Standalone::BEGIN@4";
+"Nephia::Core::render" -> "Nephia::View::MicroTemplate::render";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@2";
+"Plack::Util::load_class" -> "Plack::Loader::BEGIN@2";
+"Nephia::Core::render" -> "Encode::encode";
+"Exporter::import" -> "Exporter::Heavy::BEGIN@3";
+"Nephia::Core::BEGIN@13" -> "Encode::BEGIN@240";
+"Benty::BEGIN@4" -> "Nephia::BEGIN@4";
+"HTTP::Server::PSGI::BEGIN@7" -> "Plack::HTTPParser::BEGIN@3";
+"Plack::Util::load_class" -> "Plack::Middleware::Static::BEGIN@2";
+"JSON::_load_xs" -> "JSON::Backend::XS::BEGIN@42";
+"File::Temp::BEGIN@145" -> "File::Path::BEGIN@6";
+"HTTP::Server::PSGI::BEGIN@10" -> "HTTP::Status::BEGIN@3";
+"Text::MicroTemplate::File::render_file" -> "Text::MicroTemplate::File::build_file";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@147";
+"Plack::Util::load_class" -> "Plack::Middleware::StackTrace::BEGIN@8";
+"Nephia::View::MicroTemplate::BEGIN@4" -> "Text::MicroTemplate::File::BEGIN@104";
+"JSON::BEGIN@2" -> "JSON::XS::BEGIN@104";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@31";
+"utf8::AUTOLOAD" -> "utf8::BEGIN@123";
+"Time::Local::BEGIN@5" -> "Config::BEGIN@10";
+"DynaLoader::bootstrap" -> "Time::HiRes::bootstrap";
+"Encode::BEGIN@48" -> "Encode::Alias::BEGIN@2";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::BEGIN@14";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@178";
+"HTTP::Server::PSGI::BEGIN@8" -> "IO::Socket::INET::BEGIN@12";
+"Devel::StackTrace::BEGIN@11" -> "Devel::StackTrace::Frame::BEGIN@10";
+"HTTP::Body::OctetStream::BEGIN@8" -> "bytes::import";
+"HTTP::Body::XForms::BEGIN@8" -> "bytes::import";
+"HTTP::Body::UrlEncoded::BEGIN@8" -> "bytes::import";
+"HTTP::Body::XFormsMultipart::BEGIN@8" -> "bytes::import";
+"Data::Dumper::BEGIN@683" -> "bytes::import";
+"HTTP::Body::MultiPart::BEGIN@8" -> "bytes::import";
+"Encode::utf8::BEGIN@323" -> "bytes::import";
+"Plack::Component::__ANON__[Plack/Component.pm:39]" -> "Plack::Middleware::Lint::call";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::BEGIN@25";
+"Plack::Request::BEGIN@10" -> "Hash::MultiValue::BEGIN@18";
+"Exporter::Heavy::BEGIN@197" -> "warnings::unimport";
+"Plack::Middleware::Lint::BEGIN@3" -> "warnings::unimport";
+"Plack::App::URLMap::BEGIN@54" -> "warnings::unimport";
+"utf8::BEGIN@460" -> "warnings::unimport";
+"Text::MicroTemplate::BEGIN@419" -> "warnings::unimport";
+"Hash::MultiValue::BEGIN@4" -> "warnings::unimport";
+"Nephia::Core::BEGIN@31" -> "warnings::unimport";
+"POSIX::BEGIN@39" -> "warnings::unimport";
+"Devel::StackTrace::AsHTML::BEGIN@11" -> "warnings::unimport";
+"utf8::BEGIN@117" -> "warnings::unimport";
+"Encode::Alias::BEGIN@4" -> "warnings::unimport";
+"Nephia::Core::BEGIN@84" -> "warnings::unimport";
+"Encode::BEGIN@240" -> "warnings::unimport";
+"IO::Socket::INET::new" -> "IO::Socket::new";
+"IO::Socket::INET::configure" -> "IO::Socket::socket";
+"Router::Simple::connect" -> "Router::Simple::Route::new";
+"Plack::Middleware::StackTrace::BEGIN@5" -> "Devel::StackTrace::BEGIN@11";
+"Plack::Middleware::StackTrace::BEGIN@8" -> "Plack::Util::Accessor::import";
+"Plack::Middleware::Static::BEGIN@7" -> "Plack::Util::Accessor::import";
+"Plack::Response::BEGIN@7" -> "Plack::Util::Accessor::import";
+"Plack::Middleware::BEGIN@7" -> "Plack::Util::Accessor::import";
+"Plack::Middleware::Conditional::BEGIN@5" -> "Plack::Util::Accessor::import";
+"Plack::Middleware::AccessLog::BEGIN@5" -> "Plack::Util::Accessor::import";
+"Plack::App::File::BEGIN@11" -> "Plack::Util::Accessor::import";
+"Plack::Builder::BEGIN@8" -> "Plack::Middleware::Conditional::BEGIN@5";
+"Nephia::Core::BEGIN@9" -> "Router::Simple::BEGIN@4";
+"JSON::_load_xs" -> "JSON::Backend::XS::BEGIN@9";
+"Plack::Request::BEGIN@10" -> "Hash::MultiValue::BEGIN@12";
+"Encode::Alias::init_aliases" -> "Encode::Alias::define_alias";
+"Nephia::Core::json_res" -> "JSON::XS::DESTROY";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:96]" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:73]";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::XForms::BEGIN@10";
+"Plack::Request::BEGIN@14" -> "Stream::Buffered::BEGIN@2";
+"FindBin::init" -> "FindBin::CORE:ftfile";
+"FindBin::BEGIN@205" -> "FindBin::init";
+"Plack::Runner::__ANON__" -> "Plack::Sandbox::app_2epsgi::BEGIN@8";
+"Nephia::View::new" -> "Nephia::View::MicroTemplate::new";
+"Router::Simple::BEGIN@7" -> "Router::Simple::Route::BEGIN@2";
+"Plack::Runner::locate_app" -> "File::Basename::BEGIN@42";
+"Plack::Util::Accessor::import" -> "Plack::Util::Accessor::mk_accessors";
+"DynaLoader::bootstrap" -> "DynaLoader::CORE:subst";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@15";
+"Plack::Sandbox::app_2epsgi::BEGIN@4" -> "Config::Micro::BEGIN@4";
+"JSON::_load_xs" -> "JSON::Boolean::_overrride_overload";
+"Plack::Util::load_class" -> "Plack::Middleware::ContentLength::BEGIN@3";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::XForms::BEGIN@6";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@5";
+"Plack::Request::BEGIN@10" -> "Hash::MultiValue::BEGIN@5";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@11";
+"Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:47]" -> "Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:45]";
+"Nephia::View::MicroTemplate::__ANON__[(eval 26)[Text/MicroTemplate.pm:389]:47]" -> "Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:45]";
+"Nephia::View::MicroTemplate::__ANON__[(eval 28)[Text/MicroTemplate.pm:389]:47]" -> "Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:45]";
+"Nephia::View::MicroTemplate::__ANON__[(eval 27)[Text/MicroTemplate.pm:389]:47]" -> "Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:45]";
+"Nephia::View::MicroTemplate::__ANON__[(eval 25)[Text/MicroTemplate.pm:389]:47]" -> "Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:45]";
+"IO::Socket::INET::bind" -> "IO::Socket::bind";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@14";
+"DynaLoader::BEGIN@95" -> "attributes::BEGIN@9";
+"Plack::App::File::serve_path" -> "Cwd::abs_path";
+"FindBin::init" -> "Cwd::abs_path";
+"Class::Accessor::Lite::import" -> "Class::Accessor::Lite::_mk_ro_accessors";
+"Time::Local::BEGIN@5" -> "Config::BEGIN@9";
+"POSIX::BEGIN@13" -> "Fcntl::BEGIN@58";
+"Plack::Builder::add_middleware" -> "Plack::Util::load_class";
+"Try::Tiny::try" -> "Plack::Util::load_class";
+"utf8::SWASHNEW" -> "utf8::CORE:match";
+"Plack::Middleware::Static::_handle_static" -> "Plack::Component::new";
+"Plack::Builder::builder" -> "Plack::Component::new";
+"Plack::Runner::__ANON__" -> "Plack::Component::new";
+"Plack::Middleware::wrap" -> "Plack::Component::new";
+"Nephia::Core::BEGIN@13" -> "Encode::BEGIN@48";
+"Plack::Runner::__ANON__" -> "Plack::Sandbox::app_2epsgi::BEGIN@1";
+"URI::BEGIN@22" -> "URI::Escape::BEGIN@2";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@19";
+"Nephia::Core::BEGIN@11" -> "JSON::_load_xs";
+"HTTP::Server::PSGI::_handle_response" -> "Plack::Util::header_iter";
+"Nephia::Core::BEGIN@10" -> "Nephia::View::BEGIN@5";
+"Exporter::import" -> "Exporter::Heavy::BEGIN@197";
+"HTTP::Server::PSGI::BEGIN@8" -> "IO::Socket::INET::BEGIN@9";
+"JSON::Boolean::_overrride_overload" -> "JSON::PP::Boolean::BEGIN@3";
+"Plack::Component::__ANON__[Plack/Component.pm:39]" -> "Plack::Middleware::StackTrace::call";
+"Plack::Util::load_class" -> "Plack::Middleware::ContentLength::BEGIN@6";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@16";
+"Plack::Middleware::Static::BEGIN@5" -> "Plack::App::File::BEGIN@2";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:96]" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:75]";
+"File::Temp::BEGIN@145" -> "File::Path::BEGIN@18";
+"POSIX::SigRt::BEGIN@58" -> "Tie::Hash::BEGIN@189";
+"Plack::Middleware::BEGIN@7" -> "Plack::Util::Accessor::BEGIN@2";
+"IO::Socket::UNIX::BEGIN@11" -> "IO::Socket::import";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::import";
+"HTTP::Server::PSGI::BEGIN@8" -> "IO::Socket::import";
+"feature::import" -> "feature::CORE:substcont";
+"DynaLoader::bootstrap" -> "DynaLoader::dl_install_xsub";
+"IO::Socket::INET::peerport" -> "Socket::sockaddr_in";
+"IO::Socket::INET::peeraddr" -> "Socket::sockaddr_in";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@7";
+"Plack::Builder::builder" -> "Plack::Builder::to_app";
+"File::Basename::_strip_trailing_sep" -> "File::Basename::CORE:substcont";
+"IO::Socket::bind" -> "IO::Socket::CORE:bind";
+"parent::import" -> "Plack::Component::BEGIN@6";
+"Text::MicroTemplate::code" -> "Text::MicroTemplate::_build";
+"JSON::_load_xs" -> "JSON::Backend::XS::init";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@10";
+"Plack::Builder::BEGIN@7" -> "Plack::App::URLMap::BEGIN@5";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::BEGIN@8";
+"Stream::Buffered::BEGIN@7" -> "Stream::Buffered::File::BEGIN@3";
+"Plack::Util::load_class" -> "Plack::Loader::BEGIN@5";
+"HTTP::Server::PSGI::accept_loop" -> "IO::Socket::INET::peerhost";
+"Router::Simple::Route::BEGIN@6" -> "Class::Accessor::Lite::BEGIN@92";
+"HTTP::Body::OctetStream::BEGIN@7" -> "base::BEGIN@3";
+"Nephia::View::MicroTemplate::__ANON__[(eval 25)[Text/MicroTemplate.pm:389]:45]" -> "Nephia::View::MicroTemplate::CORE:subst";
+"Nephia::View::MicroTemplate::__ANON__[(eval 28)[Text/MicroTemplate.pm:389]:45]" -> "Nephia::View::MicroTemplate::CORE:subst";
+"Nephia::View::MicroTemplate::__ANON__[(eval 27)[Text/MicroTemplate.pm:389]:45]" -> "Nephia::View::MicroTemplate::CORE:subst";
+"Nephia::View::MicroTemplate::__ANON__[(eval 26)[Text/MicroTemplate.pm:389]:45]" -> "Nephia::View::MicroTemplate::CORE:subst";
+"Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:45]" -> "Nephia::View::MicroTemplate::CORE:subst";
+"Plack::Middleware::AccessLog::BEGIN@16" -> "Time::Local::_daygm";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@144";
+"Plack::Builder::BEGIN@7" -> "Plack::App::URLMap::BEGIN@4";
+"Plack::Util::load_class" -> "Plack::Middleware::AccessLog::BEGIN@16";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::register_domain";
+"HTTP::Server::PSGI::BEGIN@8" -> "IO::Socket::register_domain";
+"Exporter::import" -> "Exporter::Heavy::CORE:match";
+"Time::HiRes::import" -> "Exporter::Heavy::CORE:match";
+"Text::MicroTemplate::build" -> "Scalar::Util::weaken";
+"Plack::Runner::__ANON__" -> "File::Spec::Unix::rel2abs";
+"Plack::Runner::__ANON__" -> "Plack::Sandbox::app_2epsgi::BEGIN@2.2";
+"HTTP::Body::OctetStream::BEGIN@10" -> "Fcntl::O_TEMPORARY";
+"Text::MicroTemplate::build" -> "Text::MicroTemplate::__ANON__[Text/MicroTemplate.pm:371]";
+"Plack::Util::load_class" -> "Plack::Middleware::AccessLog::BEGIN@4";
+"Plack::Builder::BEGIN@7" -> "Plack::App::URLMap::BEGIN@7";
+"Plack::Runner::__ANON__" -> "Nephia::Core::run";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@14";
+"Plack::Util::load_class" -> "Plack::Handler::Standalone::BEGIN@2";
+"Plack::Middleware::AccessLog::BEGIN@16" -> "Time::Local::BEGIN@6";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::BEGIN@14";
+"HTTP::Server::PSGI::BEGIN@10" -> "HTTP::Status::BEGIN@6";
+"HTTP::Body::MultiPart::BEGIN@10" -> "IO::File::BEGIN@127";
+"XSLoader::load" -> "DynaLoader::BEGIN@95";
+"IO::Socket::INET::configure" -> "IO::Socket::INET::_get_proto_name";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@9";
+"Nephia::View::MicroTemplate::BEGIN@4" -> "Text::MicroTemplate::File::BEGIN@6";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:96]" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:74]";
+"HTTP::Body::BEGIN@26" -> "HTTP::Message::BEGIN@643";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@2";
+"Plack::Util::load_class" -> "Plack::Middleware::StackTrace::BEGIN@3";
+"HTTP::Body::BEGIN@26" -> "URI::BEGIN@7";
+"HTTP::Body::MultiPart::BEGIN@10" -> "IO::File::BEGIN@130";
+"Nephia::Core::BEGIN@7" -> "Plack::Response::BEGIN@10";
+"base::import" -> "UNIVERSAL::isa";
+"Text::MicroTemplate::File::build_file" -> "Text::MicroTemplate::File::CORE:stat";
+"Plack::Middleware::Lint::validate_res" -> "Plack::Util::is_real_fh";
+"Plack::Request::BEGIN@14" -> "Stream::Buffered::BEGIN@3";
+"IO::Socket::INET::configure" -> "IO::Socket::sockopt";
+"File::Spec::Unix::rel2abs" -> "File::Spec::Unix::_cwd";
+"HTTP::Body::MultiPart::BEGIN@10" -> "IO::File::BEGIN@128";
+"Plack::Runner::__ANON__" -> "Plack::Sandbox::app_2epsgi::BEGIN@7";
+"Plack::Util::load_class" -> "Plack::Middleware::Static::BEGIN@3";
+"Nephia::View::new" -> "Nephia::ClassLoader::load";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@22";
+"Nephia::View::MicroTemplate::BEGIN@4" -> "Text::MicroTemplate::File::BEGIN@8";
+"IO::Socket::new" -> "IO::Handle::new";
+"Plack::Util::load_class" -> "Plack::Middleware::ContentLength::BEGIN@4";
+"Config::Micro::BEGIN@3.1" -> "feature::import";
+"File::Temp::BEGIN@148" -> "Errno::TIEHASH";
+"IO::Socket::INET::configure" -> "IO::Socket::INET::_sock_info";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::EncodedString::BEGIN@431";
+"Plack::Builder::builder" -> "Plack::Builder::new";
+"Plack::App::File::BEGIN@8" -> "Plack::MIME::BEGIN@2";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:96]" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:76]";
+"Router::Simple::Route::BEGIN@6" -> "Class::Accessor::Lite::BEGIN@7";
+"Text::MicroTemplate::CORE:match" -> "utf8::AUTOLOAD";
+"File::Temp::BEGIN@145" -> "File::Path::BEGIN@8";
+"parent::import" -> "Plack::Handler::HTTP::Server::PSGI::BEGIN@5";
+"Plack::Middleware::AccessLog::BEGIN@16" -> "Time::Local::BEGIN@5";
+"Nephia::Core::BEGIN@7" -> "Plack::Response::BEGIN@7";
+"HTTP::Server::PSGI::handle_connection" -> "HTTP::Parser::XS::parse_http_request";
+"Nephia::View::MicroTemplate::render" -> "Text::MicroTemplate::File::render_file";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@12";
+"Encode::find_encoding" -> "Encode::getEncoding";
+"Plack::Util::load_class" -> "Plack::Middleware::AccessLog::CORE:match";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@8";
+"Plack::Request::BEGIN@8" -> "Storable::BEGIN@51";
+"HTTP::Body::BEGIN@26" -> "URI::BEGIN@4";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@166";
+"Nephia::Core::BEGIN@13" -> "Encode::predefine_encodings";
+"HTTP::Server::PSGI::BEGIN@7" -> "Plack::HTTPParser::BEGIN@7";
+"Text::MicroTemplate::File::new" -> "Text::MicroTemplate::new";
+"File::Spec::Unix::_cwd" -> "Cwd::getcwd";
+"FindBin::cwd2" -> "Cwd::getcwd";
+"Time::Local::BEGIN@5" -> "version::(cmp";
+"Nephia::Core::__ANON__[Nephia/Core.pm:47]" -> "Benty::__ANON__[/home/azuma/Benty/lib/Benty.pm:25]";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:96]" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:78]";
+"Nephia::Core::run" -> "Plack::Builder::builder";
+"HTTP::Server::PSGI::BEGIN@19" -> "DynaLoader::BEGIN@18";
+"Encode::getEncoding" -> "Encode::Alias::find_alias";
+"Plack::Builder::BEGIN@8" -> "Plack::Middleware::Conditional::BEGIN@2";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::BEGIN@17";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@224";
+"IO::Socket::peername" -> "IO::Socket::CORE:getpeername";
+"Plack::Sandbox::app_2epsgi::BEGIN@3" -> "FindBin::BEGIN@205";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@4";
+"Plack::Util::load_class" -> "Plack::Loader::BEGIN@4";
+"Encode::Alias::find_alias" -> "Encode::Alias::CORE:match";
+"Encode::BEGIN@48" -> "Encode::Alias::CORE:match";
+"utf8::AUTOLOAD" -> "utf8::BEGIN@117";
+"Nephia::View::BEGIN@5" -> "Nephia::ClassLoader::BEGIN@3";
+"Text::MicroTemplate::CORE:match" -> "Text::MicroTemplate::BEGIN@190";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@148";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::XFormsMultipart::BEGIN@11";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "POSIX::SigRt::BEGIN@56";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:32]" -> "IO::Handle::print";
+"Plack::Middleware::StackTrace::BEGIN@5" -> "Devel::StackTrace::BEGIN@2";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::UrlEncoded::BEGIN@6";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::BEGIN@406";
+"Encode::BEGIN@48" -> "Encode::Alias::BEGIN@4";
+"File::Temp::BEGIN@148" -> "Errno::BEGIN@21";
+"Try::Tiny::try" -> "HTTP::Parser::XS::BEGIN@4";
+"POSIX::BEGIN@9" -> "AutoLoader::BEGIN@30";
+"POSIX::BEGIN@9" -> "AutoLoader::BEGIN@138";
+"parent::import" -> "Plack::Component::BEGIN@5";
+"HTTP::Body::OctetStream::BEGIN@10" -> "Fcntl::O_LARGEFILE";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::MultiPart::BEGIN@10";
+"Devel::StackTrace::BEGIN@12" -> "File::Spec::Unix::BEGIN@149";
+"IO::Socket::BEGIN@12" -> "Socket::BEGIN@3";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@229";
+"Plack::Util::load_class" -> "Try::Tiny::try";
+"Plack::Loader::load" -> "Try::Tiny::try";
+"Plack::Loader::auto" -> "Try::Tiny::try";
+"HTTP::Server::PSGI::BEGIN@7" -> "Try::Tiny::try";
+"Plack::Middleware::StackTrace::call" -> "Try::Tiny::try";
+"Class::Accessor::Lite::import" -> "Class::Accessor::Lite::_mk_accessors";
+"Plack::Request::BEGIN@14" -> "Stream::Buffered::BEGIN@5";
+"DynaLoader::bootstrap" -> "DynaLoader::CORE:ftsize";
+"Nephia::View::BEGIN@5" -> "Nephia::ClassLoader::BEGIN@4";
+"Nephia::Core::BEGIN@11" -> "JSON::BEGIN@6";
+"HTTP::Body::OctetStream::BEGIN@10" -> "Exporter::export_tags";
+"Encode::Alias::init_aliases" -> "Encode::Alias::CORE:qr";
+"Stream::Buffered::BEGIN@5" -> "FileHandle::BEGIN@46";
+"JSON::XS::BEGIN@104" -> "common::sense::import";
+"Plack::Builder::BEGIN@7" -> "Plack::App::URLMap::BEGIN@3";
+"File::Basename::dirname" -> "File::Basename::_strip_trailing_sep";
+"Plack::Request::BEGIN@8" -> "Storable::BEGIN@22";
+"HTTP::Server::PSGI::handle_connection" -> "HTTP::Server::PSGI::CORE:open";
+"Plack::Middleware::AccessLog::BEGIN@16" -> "Time::Local::BEGIN@27";
+"Plack::Util::load_class" -> "Plack::Middleware::AccessLog::BEGIN@2";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::MultiPart::BEGIN@6";
+"JSON::_load_xs" -> "JSON::BEGIN@2";
+"Plack::Sandbox::app_2epsgi::BEGIN@3" -> "FindBin::BEGIN@98";
+"Plack::Handler::HTTP::Server::PSGI::_server" -> "HTTP::Server::PSGI::new";
+"HTTP::Server::PSGI::accept_loop" -> "IO::Socket::setsockopt";
+"IO::Socket::sockopt" -> "IO::Socket::setsockopt";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@13";
+"Plack::Builder::to_app" -> "Plack::Builder::__ANON__[Plack/Builder.pm:20]";
+"Router::Simple::Route::BEGIN@6" -> "Class::Accessor::Lite::BEGIN@84";
+"Nephia::Core::json_res" -> "JSON::XS::encode";
+"HTTP::Server::PSGI::setup_listener" -> "IO::Socket::INET::new";
+"IO::Socket::accept" -> "IO::Socket::INET::new";
+"Plack::Request::BEGIN@13" -> "Plack::Request::Upload::BEGIN@4";
+"Plack::Middleware::AccessLog::log_line" -> "Plack::Middleware::AccessLog::CORE:substcont";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@141";
+"Plack::Component::__ANON__[Plack/Component.pm:39]" -> "Plack::Middleware::Static::call";
+"Router::Simple::match" -> "Router::Simple::_match";
+"Plack::Middleware::Static::BEGIN@5" -> "Plack::App::File::BEGIN@11";
+"IO::Socket::BEGIN@12" -> "Socket::BEGIN@541";
+"Plack::Request::BEGIN@13" -> "Plack::Request::Upload::BEGIN@3";
+"File::Temp::BEGIN@145" -> "File::Path::BEGIN@7";
+"Nephia::Core::BEGIN@13" -> "Encode::Config::BEGIN@7";
+"FindBin::init" -> "FindBin::CORE:match";
+"Router::Simple::Route::BEGIN@6" -> "Class::Accessor::Lite::BEGIN@76";
+"Router::Simple::BEGIN@7" -> "Router::Simple::Route::BEGIN@4";
+"Plack::Util::load_class" -> "Plack::Middleware::StackTrace::BEGIN@7";
+"IO::Socket::INET::configure" -> "IO::Socket::INET::bind";
+"Plack::App::File::call" -> "Plack::App::File::serve_path";
+"Plack::Request::BEGIN@8" -> "HTTP::Headers::BEGIN@6";
+"Plack::Middleware::AccessLog::BEGIN@16" -> "Time::Local::BEGIN@4";
+"Router::Simple::Route::new" -> "Router::Simple::Route::CORE:qr";
+"JSON::_load_xs" -> "JSON::Backend::XS::BEGIN@18";
+"Router::Simple::Route::BEGIN@6" -> "Class::Accessor::Lite::BEGIN@68";
+"Exporter::import" -> "Exporter::Heavy::BEGIN@4";
+"Plack::Middleware::StackTrace::BEGIN@6" -> "Devel::StackTrace::AsHTML::BEGIN@11";
+"parent::import" -> "Plack::Component::BEGIN@3";
+"Plack::Middleware::AccessLog::_safe" -> "Plack::Middleware::AccessLog::CORE:subst";
+"Plack::Middleware::AccessLog::log_line" -> "Plack::Middleware::AccessLog::CORE:subst";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:68]" -> "Plack::Middleware::AccessLog::CORE:subst";
+"Plack::Middleware::StackTrace::BEGIN@5" -> "Devel::StackTrace::BEGIN@12";
+"Plack::Middleware::Static::BEGIN@5" -> "Plack::App::File::BEGIN@4";
+"URI::BEGIN@22" -> "URI::Escape::BEGIN@145";
+"IO::Socket::INET::peerhost" -> "Socket::inet_ntoa";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::XForms::BEGIN@7";
+"Devel::StackTrace::AsHTML::BEGIN@7" -> "Data::Dumper::BEGIN@683";
+"File::Spec::Unix::rel2abs" -> "File::Spec::Unix::canonpath";
+"File::Spec::Unix::catfile" -> "File::Spec::Unix::canonpath";
+"File::Spec::Unix::catdir" -> "File::Spec::Unix::canonpath";
+"Nephia::import" -> "Nephia::CORE:match";
+"FindBin::init" -> "FindBin::CORE:readlink";
+"HTTP::Server::PSGI::BEGIN@7" -> "Plack::HTTPParser::BEGIN@2";
+"Time::Local::BEGIN@5" -> "Config::import";
+"Errno::BEGIN@8" -> "Config::import";
+"lib::BEGIN@6" -> "Config::import";
+"DynaLoader::BEGIN@22" -> "Config::import";
+"lib::import" -> "lib::_get_dirs";
+"Router::Simple::Route::BEGIN@6" -> "Class::Accessor::Lite::import";
+"Router::Simple::BEGIN@11" -> "Class::Accessor::Lite::import";
+"HTTP::Server::PSGI::BEGIN@8" -> "IO::Socket::INET::BEGIN@11";
+"File::Basename::fileparse_set_fstype" -> "File::Basename::CORE:regcomp";
+"Devel::StackTrace::BEGIN@12" -> "File::Spec::Unix::BEGIN@3";
+"AutoLoader::find_filename" -> "AutoLoader::CORE:regcomp";
+"AutoLoader::import" -> "AutoLoader::CORE:regcomp";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::BEGIN@16";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::XFormsMultipart::BEGIN@10";
+"Plack::Request::BEGIN@13" -> "Plack::Request::Upload::BEGIN@2";
+"Plack::Builder::BEGIN@8" -> "Plack::Middleware::Conditional::BEGIN@3";
+"Text::MicroTemplate::_build" -> "Text::MicroTemplate::_inline_escape_html";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@3";
+"Plack::Middleware::StackTrace::BEGIN@5" -> "Devel::StackTrace::BEGIN@9";
+"FindBin::BEGIN@98" -> "Cwd::BEGIN@209";
+"Plack::Util::load_class" -> "Plack::Middleware::Lint::BEGIN@2";
+"IO::Socket::INET::peerhost" -> "IO::Socket::INET::peeraddr";
+"Plack::Util::load_class" -> "Plack::Middleware::StackTrace::BEGIN@5";
+"Plack::Loader::load" -> "Plack::Handler::HTTP::Server::PSGI::new";
+"Nephia::Core::BEGIN@13" -> "Encode::BEGIN@6";
+"Plack::Util::response_cb" -> "Plack::Util::content_length";
+"HTTP::Server::PSGI::__ANON__[HTTP/Server/PSGI.pm:276]" -> "IO::Handle::syswrite";
+"parent::import" -> "Plack::Middleware::BEGIN@6";
+"utf8::AUTOLOAD" -> "utf8::BEGIN@399";
+"Plack::Component::__ANON__[Plack/Component.pm:39]" -> "Plack::Middleware::ContentLength::call";
+"Plack::Util::run_app" -> "Plack::Middleware::ContentLength::call";
+"Nephia::Core::BEGIN@9" -> "Router::Simple::BEGIN@2";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "POSIX::BEGIN@39";
+"Plack::Util::response_cb" -> "Plack::Middleware::AccessLog::log_line";
+"DynaLoader::bootstrap" -> "DynaLoader::dl_load_flags";
+"utf8::AUTOLOAD" -> "utf8::BEGIN@135";
+"Plack::App::File::call" -> "Plack::App::File::locate_file";
+"Plack::Util::load_class" -> "Plack::Middleware::Static::BEGIN@5";
+"Nephia::Core::BEGIN@11" -> "JSON::Backend::PP::BEGIN@383";
+"Time::Local::_daygm" -> "Time::Local::CORE:pack";
+"Plack::Runner::locate_app" -> "File::Basename::BEGIN@52";
+"Nephia::Core::BEGIN@11" -> "JSON::BEGIN@9";
+"File::Spec::Unix::file_name_is_absolute" -> "File::Spec::Unix::CORE:match";
+"HTTP::Body::OctetStream::BEGIN@10" -> "Fcntl::O_EXLOCK";
+"Plack::Middleware::StackTrace::BEGIN@6" -> "Devel::StackTrace::AsHTML::BEGIN@3";
+"Devel::StackTrace::BEGIN@12" -> "File::Spec::BEGIN@4";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::MultiPart::BEGIN@7";
+"Nephia::Core::BEGIN@7" -> "Plack::Response::BEGIN@9";
+"Plack::Request::BEGIN@14" -> "Stream::Buffered::BEGIN@6";
+"Plack::Util::load_class" -> "Plack::Middleware::ContentLength::BEGIN@2";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@9";
+"Text::MicroTemplate::File::build_file" -> "Text::MicroTemplate::File::CORE:open";
+"Plack::Sandbox::app_2epsgi::BEGIN@3" -> "FindBin::BEGIN@100";
+"Plack::Builder::BEGIN@7" -> "Plack::App::URLMap::BEGIN@2";
+"Nephia::Core::BEGIN@13" -> "Encode::BEGIN@5";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::MultiPart::BEGIN@11";
+"Plack::Loader::load" -> "Try::Tiny::catch";
+"Plack::Loader::auto" -> "Try::Tiny::catch";
+"Plack::Middleware::StackTrace::call" -> "Try::Tiny::catch";
+"POSIX::AUTOLOAD" -> "POSIX::CORE:match";
+"POSIX::import" -> "POSIX::CORE:match";
+"Plack::Loader::preload_app" -> "Plack::Runner::__ANON__";
+"HTTP::Server::PSGI::setup_listener" -> "Plack::Runner::__ANON__";
+"Plack::Middleware::Static::_handle_static" -> "Plack::App::File::call";
+"Plack::Middleware::Static::_handle_static" -> "Plack::Middleware::Static::CORE:match";
+"Time::HiRes::import" -> "Exporter::Heavy::_rebuild_cache";
+"HTTP::Server::PSGI::accept_loop" -> "IO::Socket::close";
+"IO::Socket::listen" -> "IO::Socket::CORE:listen";
+"Router::Simple::Route::BEGIN@6" -> "Class::Accessor::Lite::BEGIN@62";
+"DynaLoader::bootstrap" -> "DynaLoader::dl_load_file";
+"Socket::sockaddr_in" -> "Socket::unpack_sockaddr_in";
+"IO::Socket::BEGIN@12" -> "Socket::BEGIN@628";
+"Encode::BEGIN@48" -> "Encode::Alias::BEGIN@3";
+"HTTP::Body::OctetStream::BEGIN@7" -> "base::BEGIN@4";
+"Text::MicroTemplate::parse" -> "Text::MicroTemplate::CORE:match";
+"Text::MicroTemplate::new" -> "Text::MicroTemplate::CORE:match";
+"JSON::_load_xs" -> "JSON::_set_module";
+"Stream::Buffered::BEGIN@7" -> "Stream::Buffered::File::BEGIN@4";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@241";
+"parent::import" -> "Plack::Component::BEGIN@4";
+"File::Temp::BEGIN@230" -> "constant::import";
+"File::Temp::BEGIN@224" -> "constant::import";
+"JSON::Backend::XS::BEGIN@9" -> "constant::import";
+"HTTP::Server::PSGI::BEGIN@31" -> "constant::import";
+"File::Temp::BEGIN@229" -> "constant::import";
+"Hash::MultiValue::BEGIN@12" -> "constant::import";
+"Text::MicroTemplate::BEGIN@10" -> "constant::import";
+"Time::Local::BEGIN@29" -> "constant::import";
+"File::Temp::BEGIN@217" -> "constant::import";
+"HTTP::Parser::XS::BEGIN@16" -> "constant::import";
+"Time::Local::BEGIN@28" -> "constant::import";
+"File::Temp::BEGIN@220" -> "constant::import";
+"HTTP::Server::PSGI::BEGIN@32" -> "constant::import";
+"File::Temp::BEGIN@228" -> "constant::import";
+"JSON::Backend::XS::BEGIN@18" -> "constant::import";
+"Plack::App::URLMap::BEGIN@5" -> "constant::import";
+"JSON::Backend::XS::BEGIN@11" -> "constant::import";
+"Time::Local::BEGIN@27" -> "constant::import";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::UNIX::BEGIN@9";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::CORE:pack";
+"IO::Socket::BEGIN@12" -> "Socket::BEGIN@310";
+"Class::Accessor::Lite::_mk_ro_accessors" -> "Class::Accessor::Lite::__m_ro";
+"Plack::Middleware::StackTrace::BEGIN@5" -> "Devel::StackTrace::BEGIN@13";
+"JSON::_load_xs" -> "JSON::Backend::XS::Supportable::BEGIN@99";
+"base::import" -> "base::has_fields";
+"Nephia::ClassLoader::load" -> "Nephia::View::MicroTemplate::BEGIN@2";
+"Stream::Buffered::BEGIN@5" -> "FileHandle::BEGIN@4";
+"Plack::Util::load_class" -> "Plack::Middleware::Static::BEGIN@4";
+"FindBin::BEGIN@98" -> "Cwd::BEGIN@171";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@32";
+"attributes::_modify_attrs_and_deprecate" -> "attributes::_modify_attrs";
+"Benty::BEGIN@4" -> "Nephia::BEGIN@2";
+"Plack::Builder::BEGIN@7" -> "Plack::App::URLMap::BEGIN@54";
+"HTTP::Server::PSGI::CORE:open" -> "HTTP::Server::PSGI::BEGIN@166";
+"Class::Accessor::Lite::import" -> "Class::Accessor::Lite::CORE:sort";
+"Plack::Runner::__ANON__" -> "Plack::Sandbox::app_2epsgi::BEGIN@5";
+"POSIX::import" -> "AutoLoader::AUTOLOAD";
+"Plack::Sandbox::app_2epsgi::BEGIN@8" -> "Nephia::Core::path";
+"Time::Local::BEGIN@5" -> "Config::BEGIN@11";
+"Plack::App::File::serve_path" -> "Plack::App::File::CORE:stat";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@3";
+"Router::Simple::Route::new" -> "Router::Simple::Route::CORE:subst";
+"HTTP::Server::PSGI::_handle_response" -> "HTTP::Date::time2str";
+"Plack::App::File::serve_path" -> "HTTP::Date::time2str";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::Dir::BEGIN@2407";
+"File::Temp::BEGIN@147" -> "IO::Seekable::BEGIN@97";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@84";
+"File::Temp::BEGIN@147" -> "IO::Seekable::BEGIN@104";
+"Plack::Middleware::Lint::_is_really_utf8" -> "utf8::is_utf8";
+"Stream::Buffered::BEGIN@8" -> "Stream::Buffered::PerlIO::BEGIN@2";
+"HTTP::Body::OctetStream::BEGIN@10" -> "Carp::Heavy::BEGIN@3";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::OctetStream::BEGIN@10";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@6";
+"HTTP::Server::PSGI::accept_loop" -> "IO::Socket::accept";
+"Stream::Buffered::BEGIN@5" -> "FileHandle::BEGIN@3";
+"Plack::Sandbox::app_2epsgi::BEGIN@4" -> "Config::Micro::BEGIN@5";
+"HTTP::Body::BEGIN@26" -> "URI::BEGIN@128";
+"Stream::Buffered::BEGIN@6" -> "Stream::Buffered::Auto::BEGIN@3";
+"HTTP::Server::PSGI::BEGIN@6" -> "Plack::BEGIN@5";
+"Plack::Util::load_class" -> "Plack::Middleware::AccessLog::BEGIN@7";
+"parent::import" -> "Plack::Middleware::BEGIN@4";
+"Router::Simple::Route::new" -> "Router::Simple::Route::CORE:substcont";
+"Devel::StackTrace::BEGIN@11" -> "Devel::StackTrace::Frame::BEGIN@2";
+"HTTP::Server::PSGI::do_timeout" -> "HTTP::Server::PSGI::__ANON__[HTTP/Server/PSGI.pm:270]";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:52]" -> "POSIX::LC_ALL";
+"feature::import" -> "feature::CORE:subst";
+"Try::Tiny::try" -> "HTTP::Parser::XS::BEGIN@6";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::UrlEncoded::BEGIN@8";
+"Nephia::Core::__ANON__[Nephia/Core.pm:115]" -> "Nephia::Core::app";
+"Encode::predefine_encodings" -> "Encode::Encoding::CORE:match";
+"JSON::_load_xs" -> "JSON::Backend::XS::BEGIN@11";
+"JSON::BEGIN@2" -> "JSON::XS::Boolean::BEGIN@1477";
+"Plack::Runner::__ANON__" -> "Plack::Sandbox::app_2epsgi::BEGIN@3.3";
+"Plack::Runner::__ANON__" -> "Config::Micro::file";
+"Plack::Sandbox::app_2epsgi::BEGIN@3" -> "FindBin::BEGIN@95";
+"Text::MicroTemplate::EncodedString::__ANON__[Text/MicroTemplate.pm:433]" -> "Text::MicroTemplate::EncodedString::as_string";
+"POSIX::SigRt::BEGIN@58" -> "Tie::Hash::BEGIN@188";
+"Plack::Util::load_class" -> "Plack::Middleware::StackTrace::BEGIN@4";
+"base::import" -> "base::has_attr";
+"Nephia::Core::run" -> "Nephia::View::new";
+"Nephia::Core::BEGIN@8" -> "Plack::Builder::BEGIN@8";
+"HTTP::Server::PSGI::BEGIN@166" -> "PerlIO::import";
+"Plack::Middleware::AccessLog::BEGIN@16" -> "Time::Local::BEGIN@29";
+"Plack::Middleware::Static::BEGIN@5" -> "Plack::App::File::BEGIN@3";
+"File::Spec::Unix::rel2abs" -> "File::Spec::Unix::catdir";
+"File::Spec::Unix::catfile" -> "File::Spec::Unix::catdir";
+"Plack::Runner::__ANON__" -> "File::Spec::Unix::catdir";
+"Config::Micro::file" -> "File::Spec::Unix::catdir";
+"parent::import" -> "Plack::Middleware::BEGIN@7";
+"Plack::Middleware::StackTrace::BEGIN@6" -> "Devel::StackTrace::AsHTML::BEGIN@4";
+"HTTP::Server::PSGI::run" -> "HTTP::Server::PSGI::setup_listener";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@146";
+"Nephia::Core::BEGIN@9" -> "Router::Simple::BEGIN@3";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@10";
+"IO::Socket::BEGIN@12" -> "UNIVERSAL::VERSION";
+"HTTP::Body::XFormsMultipart::BEGIN@11" -> "UNIVERSAL::VERSION";
+"HTTP::Body::OctetStream::BEGIN@10" -> "UNIVERSAL::VERSION";
+"Router::Simple::Route::BEGIN@6" -> "UNIVERSAL::VERSION";
+"File::Temp::BEGIN@144" -> "UNIVERSAL::VERSION";
+"Router::Simple::BEGIN@11" -> "UNIVERSAL::VERSION";
+"File::Temp::BEGIN@146" -> "UNIVERSAL::VERSION";
+"HTTP::Body::MultiPart::BEGIN@11" -> "UNIVERSAL::VERSION";
+"HTTP::Body::XForms::BEGIN@10" -> "UNIVERSAL::VERSION";
+"JSON::BEGIN@2" -> "UNIVERSAL::VERSION";
+"base::BEGIN@3" -> "strict::import";
+"Text::MicroTemplate::EncodedString::BEGIN@430" -> "strict::import";
+"HTTP::Message::BEGIN@3" -> "strict::import";
+"Plack::Middleware::Static::BEGIN@2" -> "strict::import";
+"File::Temp::BEGIN@142" -> "strict::import";
+"Devel::StackTrace::Frame::BEGIN@6" -> "strict::import";
+"Plack::Middleware::ContentLength::BEGIN@2" -> "strict::import";
+"HTTP::Status::BEGIN@3" -> "strict::import";
+"Socket::BEGIN@3" -> "strict::import";
+"Plack::Component::BEGIN@2" -> "strict::import";
+"Plack::App::URLMap::BEGIN@2" -> "strict::import";
+"File::Path::BEGIN@4" -> "strict::import";
+"Encode::BEGIN@5" -> "strict::import";
+"Benty::BEGIN@2" -> "strict::import";
+"Encode::Alias::BEGIN@2" -> "strict::import";
+"AutoLoader::BEGIN@3" -> "strict::import";
+"IO::Socket::BEGIN@14" -> "strict::import";
+"Nephia::View::BEGIN@3" -> "strict::import";
+"HTTP::Body::XFormsMultipart::BEGIN@6" -> "strict::import";
+"File::Basename::BEGIN@50" -> "strict::import";
+"Plack::Middleware::BEGIN@2" -> "strict::import";
+"Errno::BEGIN@9" -> "strict::import";
+"Plack::Handler::Standalone::BEGIN@2" -> "strict::import";
+"Time::Local::BEGIN@6" -> "strict::import";
+"Plack::Middleware::AccessLog::BEGIN@2" -> "strict::import";
+"Plack::Request::BEGIN@2" -> "strict::import";
+"URI::BEGIN@3" -> "strict::import";
+"HTTP::Body::MultiPart::BEGIN@6" -> "strict::import";
+"IO::Socket::UNIX::BEGIN@9" -> "strict::import";
+"Plack::BEGIN@3" -> "strict::import";
+"Plack::Response::BEGIN@2" -> "strict::import";
+"HTTP::Server::PSGI::BEGIN@2" -> "strict::import";
+"JSON::BEGIN@4" -> "strict::import";
+"File::Temp::Dir::BEGIN@2406" -> "strict::import";
+"Nephia::View::MicroTemplate::BEGIN@2" -> "strict::import";
+"FileHandle::BEGIN@4" -> "strict::import";
+"Encode::Config::BEGIN@7" -> "strict::import";
+"IO::File::BEGIN@128" -> "strict::import";
+"Stream::Buffered::BEGIN@2" -> "strict::import";
+"Nephia::BEGIN@2" -> "strict::import";
+"Router::Simple::Route::BEGIN@2" -> "strict::import";
+"Nephia::ClassLoader::BEGIN@2" -> "strict::import";
+"Plack::Middleware::StackTrace::BEGIN@2" -> "strict::import";
+"Config::Micro::BEGIN@4" -> "strict::import";
+"HTTP::Body::XForms::BEGIN@6" -> "strict::import";
+"Plack::MIME::BEGIN@2" -> "strict::import";
+"Stream::Buffered::PerlIO::BEGIN@2" -> "strict::import";
+"utf8::BEGIN@2" -> "strict::import";
+"Plack::HTTPParser::BEGIN@2" -> "strict::import";
+"attributes::BEGIN@9" -> "strict::import";
+"POSIX::BEGIN@2" -> "strict::import";
+"Fcntl::BEGIN@58" -> "strict::import";
+"Config::BEGIN@9" -> "strict::import";
+"HTTP::Headers::BEGIN@3" -> "strict::import";
+"File::Spec::Unix::BEGIN@3" -> "strict::import";
+"Plack::Request::Upload::BEGIN@2" -> "strict::import";
+"Encode::Encoding::BEGIN@4" -> "strict::import";
+"Cwd::BEGIN@170" -> "strict::import";
+"Plack::Handler::HTTP::Server::PSGI::BEGIN@2" -> "strict::import";
+"Plack::Builder::BEGIN@2" -> "strict::import";
+"Plack::Middleware::Lint::BEGIN@2" -> "strict::import";
+"URI::Escape::BEGIN@2" -> "strict::import";
+"Plack::Sandbox::app_2epsgi::BEGIN@1" -> "strict::import";
+"Plack::Middleware::Conditional::BEGIN@2" -> "strict::import";
+"IO::Socket::INET::BEGIN@9" -> "strict::import";
+"HTTP::Date::BEGIN@10" -> "strict::import";
+"File::Spec::BEGIN@3" -> "strict::import";
+"Hash::MultiValue::BEGIN@3" -> "strict::import";
+"Plack::App::File::BEGIN@2" -> "strict::import";
+"Router::Simple::BEGIN@2" -> "strict::import";
+"Class::Accessor::Lite::BEGIN@3" -> "strict::import";
+"Time::HiRes::BEGIN@3" -> "strict::import";
+"IO::Seekable::BEGIN@99" -> "strict::import";
+"Plack::Util::Accessor::BEGIN@2" -> "strict::import";
+"Stream::Buffered::File::BEGIN@2" -> "strict::import";
+"HTTP::Body::OctetStream::BEGIN@6" -> "strict::import";
+"Router::Simple::SubMapper::BEGIN@2" -> "strict::import";
+"HTTP::Body::UrlEncoded::BEGIN@6" -> "strict::import";
+"Stream::Buffered::Auto::BEGIN@2" -> "strict::import";
+"Devel::StackTrace::AsHTML::BEGIN@3" -> "strict::import";
+"HTTP::Body::BEGIN@6" -> "strict::import";
+"Devel::StackTrace::BEGIN@8" -> "strict::import";
+"lib::BEGIN@8" -> "strict::import";
+"Plack::Loader::BEGIN@2" -> "strict::import";
+"Nephia::Core::BEGIN@2" -> "strict::import";
+"HTTP::Parser::XS::BEGIN@3" -> "strict::import";
+"Text::MicroTemplate::BEGIN@8" -> "strict::import";
+"Exporter::Heavy::BEGIN@3" -> "strict::import";
+"Text::MicroTemplate::File::BEGIN@3" -> "strict::import";
+"Devel::StackTrace::BEGIN@12" -> "File::Spec::Unix::BEGIN@4";
+"Nephia::Core::BEGIN@10" -> "Nephia::View::BEGIN@4";
+"Plack::App::File::serve_path" -> "Plack::Util::set_io_path";
+"lib::import" -> "lib::CORE:ftdir";
+"File::Spec::Unix::canonpath" -> "File::Spec::Unix::CORE:subst";
+"HTTP::Server::PSGI::do_timeout" -> "Time::HiRes::alarm";
+"Text::MicroTemplate::_inline_escape_html" -> "Text::MicroTemplate::CORE:subst";
+"Try::Tiny::try" -> "Plack::Loader::load";
+"IO::Socket::INET::configure" -> "IO::Socket::listen";
+"AutoLoader::find_filename" -> "AutoLoader::CORE:substcont";
+"AutoLoader::import" -> "AutoLoader::CORE:substcont";
+"Plack::Middleware::Static::BEGIN@5" -> "Plack::App::File::BEGIN@9";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "Tie::StdHash::TIEHASH";
+"Encode::Alias::find_alias" -> "Encode::Alias::CORE:regcomp";
+"DynaLoader::bootstrap" -> "DynaLoader::dl_find_symbol";
+"parent::import" -> "Plack::Component::BEGIN@2";
+"HTTP::Server::PSGI::_handle_response" -> "HTTP::Server::PSGI::write_all";
+"Plack::Util::foreach" -> "HTTP::Server::PSGI::write_all";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::OctetStream::BEGIN@8";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::BEGIN@13";
+"HTTP::Server::PSGI::BEGIN@8" -> "IO::Socket::INET::BEGIN@14";
+"Plack::Runner::locate_app" -> "File::Basename::BEGIN@51";
+"POSIX::BEGIN@9" -> "AutoLoader::BEGIN@3";
+"Try::Tiny::try" -> "HTTP::Parser::XS::BEGIN@16";
+"Benty::BEGIN@4" -> "Nephia::BEGIN@14";
+"Text::MicroTemplate::File::render_file" -> "Nephia::View::MicroTemplate::__ANON__[(eval 23)[Text/MicroTemplate.pm:389]:47]";
+"Encode::BEGIN@48" -> "Encode::Alias::BEGIN@8";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::XFormsMultipart::BEGIN@6";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@8";
+"Plack::Runner::__ANON__" -> "Plack::Component::to_app";
+"Plack::Middleware::wrap" -> "Plack::Component::to_app";
+"Plack::Runner::locate_app" -> "File::Basename::BEGIN@50";
+"JSON::_load_xs" -> "JSON::CORE:readline";
+"Plack::App::File::BEGIN@4" -> "parent::import";
+"Plack::HTTPParser::BEGIN@3" -> "parent::import";
+"Plack::Middleware::Conditional::BEGIN@3" -> "parent::import";
+"Plack::Middleware::Static::BEGIN@4" -> "parent::import";
+"Plack::App::URLMap::BEGIN@4" -> "parent::import";
+"Plack::Middleware::BEGIN@5" -> "parent::import";
+"Plack::Middleware::StackTrace::BEGIN@4" -> "parent::import";
+"Plack::Middleware::AccessLog::BEGIN@4" -> "parent::import";
+"Plack::Handler::HTTP::Server::PSGI::BEGIN@5" -> "parent::import";
+"Plack::Handler::Standalone::BEGIN@4" -> "parent::import";
+"Plack::Middleware::ContentLength::BEGIN@4" -> "parent::import";
+"Plack::Middleware::Lint::BEGIN@5" -> "parent::import";
+"Plack::Builder::BEGIN@3" -> "parent::import";
+"Plack::Middleware::AccessLog::log_line" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:96]";
+"attributes::import" -> "attributes::reftype";
+"IO::Socket::BEGIN@12" -> "Socket::CORE:regcomp";
+"Nephia::Core::__ANON__[Nephia/Core.pm:115]" -> "Plack::Builder::enable";
+"Benty::BEGIN@4" -> "Nephia::import";
+"HTTP::Server::PSGI::BEGIN@19" -> "DynaLoader::bootstrap";
+"Plack::Loader::auto" -> "Plack::Loader::guess";
+"Benty::BEGIN@4" -> "Nephia::BEGIN@3";
+"Plack::Sandbox::app_2epsgi::BEGIN@8" -> "Benty::BEGIN@3";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::UrlEncoded::CORE:qr";
+"IO::Socket::INET::_sock_info" -> "IO::Socket::INET::_get_proto_number";
+"Nephia::Core::__ANON__[Nephia/Core.pm:47]" -> "Plack::Request::new";
+"Benty::BEGIN@4" -> "Nephia::BEGIN@17";
+"DynaLoader::BEGIN@95" -> "attributes::import";
+"Plack::Request::BEGIN@8" -> "Storable::BEGIN@26";
+"Encode::Alias::init_aliases" -> "Encode::Alias::undef_aliases";
+"Plack::Util::load_class" -> "Plack::Middleware::Lint::BEGIN@4";
+"Plack::Request::BEGIN@8" -> "HTTP::Headers::BEGIN@4";
+"HTTP::Body::MultiPart::BEGIN@10" -> "IO::File::BEGIN@134";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@3";
+"JSON::BEGIN@2" -> "JSON::XS::BEGIN@122";
+"Nephia::Core::BEGIN@13" -> "Encode::Config::CORE:match";
+"Devel::StackTrace::BEGIN@11" -> "Devel::StackTrace::Frame::BEGIN@11";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:52]" -> "POSIX::setlocale";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@11";
+"Time::Local::BEGIN@5" -> "version::(bool";
+"Plack::Request::BEGIN@10" -> "Hash::MultiValue::BEGIN@9";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@143";
+"Plack::Middleware::Static::BEGIN@5" -> "Plack::App::File::BEGIN@5";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@173";
+"Nephia::View::BEGIN@5" -> "Nephia::ClassLoader::BEGIN@2";
+"Encode::encode" -> "Encode::utf8::encode_xs";
+"File::Temp::BEGIN@145" -> "File::Path::BEGIN@329";
+"Nephia::Core::BEGIN@7" -> "Plack::Response::BEGIN@8";
+"Nephia::Core::BEGIN@8" -> "Plack::Builder::BEGIN@7";
+"Router::Simple::Route::new" -> "Router::Simple::Route::CORE:regcomp";
+"Router::Simple::Route::match" -> "Router::Simple::Route::CORE:regcomp";
+"utf8::AUTOLOAD" -> "utf8::BEGIN@147";
+"Time::Local::BEGIN@5" -> "Config::BEGIN@45";
+"Plack::Util::load_class" -> "Plack::Middleware::Static::BEGIN@7";
+"POSIX::import" -> "POSIX::load_imports";
+"base::import" -> "base::has_version";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@83";
+"AutoLoader::find_filename" -> "AutoLoader::CORE:subst";
+"AutoLoader::import" -> "AutoLoader::CORE:subst";
+"Plack::Util::load_class" -> "Plack::Handler::Standalone::BEGIN@3";
+"IO::Socket::new" -> "IO::Handle::autoflush";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "POSIX::BEGIN@2";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::BEGIN@13";
+"DynaLoader::bootstrap" -> "DynaLoader::CORE:ftdir";
+"Encode::predefine_encodings" -> "Encode::Encoding::BEGIN@4";
+"Plack::Middleware::AccessLog::BEGIN@16" -> "Time::Local::BEGIN@28";
+"Nephia::ClassLoader::load" -> "Nephia::View::MicroTemplate::BEGIN@6";
+"DynaLoader::bootstrap" -> "DynaLoader::dl_undef_symbols";
+"Plack::App::File::serve_path" -> "Plack::MIME::mime_type";
+"lib::import" -> "lib::CORE:ftis";
+"Nephia::Core::__ANON__[Nephia/Core.pm:128]" -> "Nephia::Core::__ANON__[Nephia/Core.pm:47]";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::BEGIN@419";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "POSIX::SigRt::BEGIN@58";
+"HTTP::Server::PSGI::BEGIN@10" -> "HTTP::Status::CORE:match";
+"Nephia::Core::BEGIN@9" -> "Router::Simple::BEGIN@7";
+"Plack::Builder::__ANON__[Plack/Builder.pm:93]" -> "Plack::Builder::add_middleware";
+"File::Temp::BEGIN@145" -> "File::Path::BEGIN@3";
+"HTTP::Server::PSGI::accept_loop" -> "IO::Socket::INET::peerport";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::UNIX::BEGIN@11";
+"Plack::Middleware::AccessLog::BEGIN@16" -> "Time::Local::BEGIN@8";
+"HTTP::Server::PSGI::do_timeout" -> "HTTP::Server::PSGI::__ANON__[HTTP/Server/PSGI.pm:276]";
+"Nephia::Core::__ANON__[Nephia/Core.pm:47]" -> "Benty::__ANON__[/home/azuma/Benty/lib/Benty.pm:16]";
+"Text::MicroTemplate::parse" -> "Text::MicroTemplate::CORE:regcomp";
+"FindBin::BEGIN@98" -> "Cwd::CORE:fteexec";
+"parent::import" -> "Plack::Middleware::BEGIN@5";
+"Plack::Runner::__ANON__" -> "Plack::Sandbox::app_2epsgi::BEGIN@4";
+"Plack::App::File::BEGIN@9" -> "HTTP::Date::BEGIN@10";
+"JSON::Boolean::_overrride_overload" -> "JSON::XS::Boolean::BEGIN@3";
+"Stream::Buffered::BEGIN@8" -> "Stream::Buffered::PerlIO::BEGIN@4";
+"Plack::Builder::builder" -> "Nephia::Core::__ANON__[Nephia/Core.pm:115]";
+"Plack::Middleware::StackTrace::BEGIN@6" -> "Devel::StackTrace::AsHTML::BEGIN@8";
+"Encode::BEGIN@48" -> "Encode::Alias::init_aliases";
+"DynaLoader::BEGIN@95" -> "XSLoader::load";
+"IO::Socket::BEGIN@12" -> "XSLoader::load";
+"FindBin::BEGIN@98" -> "XSLoader::load";
+"Plack::Request::BEGIN@8" -> "XSLoader::load";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "XSLoader::load";
+"Nephia::Core::BEGIN@13" -> "XSLoader::load";
+"PerlIO::import" -> "XSLoader::load";
+"POSIX::BEGIN@13" -> "XSLoader::load";
+"Try::Tiny::try" -> "XSLoader::load";
+"JSON::BEGIN@2" -> "XSLoader::load";
+"Devel::StackTrace::AsHTML::BEGIN@7" -> "XSLoader::load";
+"POSIX::BEGIN@9" -> "AutoLoader::BEGIN@13";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:76]" -> "Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:52]";
+"Text::MicroTemplate::File::build_file" -> "Text::MicroTemplate::build";
+"Nephia::Core::json_res" -> "JSON::XS::new";
+"Stream::Buffered::BEGIN@6" -> "Stream::Buffered::Auto::BEGIN@2";
+"FindBin::init" -> "File::Spec::Unix::path";
+"Router::Simple::BEGIN@7" -> "Router::Simple::Route::BEGIN@6";
+"File::Temp::BEGIN@145" -> "File::Path::BEGIN@19";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::BEGIN@6";
+"Router::Simple::Route::match" -> "Router::Simple::Route::CORE:match";
+"Plack::Sandbox::app_2epsgi::BEGIN@7" -> "lib::BEGIN@8";
+"lib::import" -> "lib::CORE:match";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@16";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::BEGIN@9";
+"Plack::App::File::locate_file" -> "Plack::App::File::CORE:fteread";
+"Nephia::View::MicroTemplate::BEGIN@4" -> "Text::MicroTemplate::File::BEGIN@3";
+"IO::Handle::autoflush" -> "SelectSaver::DESTROY";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::EncodedString::BEGIN@433";
+"Plack::Util::load_class" -> "Plack::Middleware::AccessLog::BEGIN@8";
+"FindBin::BEGIN@98" -> "Cwd::BEGIN@823";
+"HTTP::Server::PSGI::BEGIN@8" -> "IO::Socket::INET::BEGIN@15";
+"DynaLoader::BEGIN@95" -> "attributes::CORE:qr";
+"Nephia::BEGIN@17" -> "Nephia::Core::BEGIN@12";
+"Plack::Middleware::Static::BEGIN@5" -> "Plack::App::File::BEGIN@7";
+"Encode::Alias::find_alias" -> "Encode::find_encoding";
+"Encode::encode" -> "Encode::find_encoding";
+"Nephia::Core::_path" -> "Router::Simple::connect";
+"Plack::Sandbox::app_2epsgi::BEGIN@8" -> "Benty::BEGIN@2";
+"Nephia::ClassLoader::load" -> "Nephia::View::MicroTemplate::BEGIN@4";
+"Class::Accessor::Lite::_mk_accessors" -> "Class::Accessor::Lite::__m";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::XForms::BEGIN@8";
+"Text::MicroTemplate::File::build_file" -> "Text::MicroTemplate::File::CORE:close";
+"Plack::Runner::__ANON__" -> "File::Basename::dirname";
+"Config::Micro::file" -> "File::Basename::dirname";
+"IO::Socket::socket" -> "IO::Socket::CORE:socket";
+"HTTP::Body::BEGIN@26" -> "HTTP::Message::BEGIN@4";
+"Plack::Middleware::AccessLog::call" -> "Plack::Component::response_cb";
+"Plack::Middleware::ContentLength::call" -> "Plack::Component::response_cb";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@9";
+"parent::import" -> "Plack::Middleware::BEGIN@2";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:78]" -> "Plack::Middleware::AccessLog::_safe";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:68]" -> "Plack::Middleware::AccessLog::_safe";
+"File::Temp::BEGIN@148" -> "Errno::BEGIN@9";
+"Plack::Loader::guess" -> "Plack::Loader::env";
+"POSIX::BEGIN@9" -> "AutoLoader::BEGIN@4";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::XFormsMultipart::BEGIN@7";
+"Plack::Middleware::Lint::call" -> "Plack::Middleware::Lint::validate_res";
+"Fcntl::O_TEMPORARY" -> "File::Temp::__ANON__[File/Temp.pm:275]";
+"Nephia::Core::BEGIN@7" -> "Plack::Response::BEGIN@3";
+"Plack::Sandbox::app_2epsgi::BEGIN@7" -> "lib::BEGIN@6";
+"HTTP::Body::OctetStream::BEGIN@10" -> "Fcntl::O_NOFOLLOW";
+"Text::MicroTemplate::build" -> "Text::MicroTemplate::code";
+"Plack::Middleware::Static::BEGIN@5" -> "Plack::App::File::BEGIN@8";
+"Nephia::Core::BEGIN@13" -> "Encode::Config::BEGIN@8";
+"Stream::Buffered::BEGIN@7" -> "Stream::Buffered::File::BEGIN@6";
+"HTTP::Server::PSGI::BEGIN@6" -> "Plack::BEGIN@4";
+"Plack::MIME::mime_type" -> "Plack::MIME::CORE:match";
+"File::Temp::BEGIN@145" -> "File::Path::BEGIN@10";
+"FileHandle::import" -> "Exporter::export";
+"Time::HiRes::import" -> "Exporter::export";
+"IO::Socket::import" -> "Exporter::export";
+"HTTP::Body::BEGIN@26" -> "URI::BEGIN@13";
+"Text::MicroTemplate::File::BEGIN@6" -> "Text::MicroTemplate::BEGIN@10";
+"Benty::__ANON__[/home/azuma/Benty/lib/Benty.pm:16]" -> "Nephia::Core::config";
+"Benty::__ANON__[/home/azuma/Benty/lib/Benty.pm:25]" -> "Nephia::Core::config";
+"Plack::Util::load_class" -> "Plack::Middleware::StackTrace::BEGIN@6";
+"Nephia::Core::BEGIN@8" -> "Plack::Builder::BEGIN@6";
+"DynaLoader::bootstrap" -> "DynaLoader::CORE:ftfile";
+"HTTP::Body::OctetStream::BEGIN@10" -> "File::Temp::BEGIN@163";
+"IO::Socket::new" -> "IO::Socket::INET::configure";
+"Plack::Handler::HTTP::Server::PSGI::run" -> "Plack::Handler::HTTP::Server::PSGI::_server";
+"HTTP::Body::OctetStream::BEGIN@10" -> "Fcntl::O_NOINHERIT";
+"Plack::Middleware::AccessLog::log_line" -> "Plack::Util::headers";
+"Plack::Util::response_cb" -> "Plack::Util::headers";
+"Plack::Sandbox::app_2epsgi::BEGIN@3" -> "FindBin::BEGIN@99";
+"Nephia::Core::BEGIN@11" -> "JSON::BEGIN@5";
+"utf8::SWASHNEW" -> "utf8::CORE:subst";
+"HTTP::Server::PSGI::__ANON__[HTTP/Server/PSGI.pm:270]" -> "IO::Handle::sysread";
+"IO::Socket::accept" -> "IO::Socket::CORE:accept";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::UrlEncoded::BEGIN@7";
+"Plack::Sandbox::app_2epsgi::BEGIN@4" -> "Config::Micro::BEGIN@6";
+"Plack::Request::BEGIN@10" -> "Hash::MultiValue::BEGIN@8";
+"HTTP::Server::PSGI::accept_loop" -> "HTTP::Server::PSGI::handle_connection";
+"Plack::Component::response_cb" -> "Plack::Util::response_cb";
+"Plack::Middleware::Lint::call" -> "Plack::Component::__ANON__[Plack/Component.pm:39]";
+"Try::Tiny::try" -> "Plack::Component::__ANON__[Plack/Component.pm:39]";
+"Plack::Middleware::AccessLog::call" -> "Plack::Component::__ANON__[Plack/Component.pm:39]";
+"Plack::Middleware::ContentLength::call" -> "Plack::Component::__ANON__[Plack/Component.pm:39]";
+"Text::MicroTemplate::CORE:match" -> "utf8::SWASHNEW";
+"Nephia::Core::BEGIN@9" -> "Router::Simple::BEGIN@6";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "POSIX::BEGIN@3";
+"Plack::Middleware::BEGIN@7" -> "Plack::Util::Accessor::BEGIN@3";
+"Plack::Util::response_cb" -> "Plack::Util::status_with_no_entity_body";
+"IO::Socket::BEGIN@12" -> "Socket::BEGIN@311";
+"Stream::Buffered::BEGIN@8" -> "Stream::Buffered::PerlIO::BEGIN@3";
+"Nephia::Core::__ANON__[Nephia/Core.pm:128]" -> "Router::Simple::match";
+"Nephia::ClassLoader::load" -> "Nephia::View::MicroTemplate::BEGIN@5";
+"Nephia::Core::BEGIN@13" -> "Encode::CORE:match";
+"FindBin::BEGIN@98" -> "Cwd::BEGIN@170";
+"Nephia::Core::BEGIN@8" -> "Plack::Builder::BEGIN@2";
+"Plack::Util::load_class" -> "Plack::Middleware::Lint::BEGIN@3";
+"parent::import" -> "Plack::Handler::HTTP::Server::PSGI::BEGIN@2";
+"HTTP::Server::PSGI::BEGIN@15" -> "POSIX::import";
+"POSIX::import" -> "POSIX::AUTOLOAD";
+"Nephia::ClassLoader::load" -> "Nephia::View::MicroTemplate::BEGIN@3";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::BEGIN@11";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "POSIX::BEGIN@13";
+"Plack::Component::__ANON__[Plack/Component.pm:39]" -> "Plack::Middleware::AccessLog::call";
+"Plack::Middleware::AccessLog::__ANON__[Plack/Middleware/AccessLog.pm:52]" -> "POSIX::strftime";
+"Plack::Util::load_class" -> "POSIX::strftime";
+"Plack::Sandbox::app_2epsgi::BEGIN@7" -> "lib::import";
+"IO::Socket::INET::peerport" -> "IO::Socket::peername";
+"IO::Socket::INET::peeraddr" -> "IO::Socket::peername";
+"JSON::_load_xs" -> "JSON::Backend::XS::BEGIN@29";
+"XSLoader::load" -> "Encode::define_encoding";
+"Nephia::Core::path" -> "Nephia::Core::_path";
+"HTTP::Body::MultiPart::BEGIN@10" -> "IO::File::BEGIN@133";
+"parent::import" -> "HTTP::Server::PSGI::BEGIN@15";
+"Devel::StackTrace::BEGIN@12" -> "File::Spec::BEGIN@3";
+"HTTP::Server::PSGI::_handle_response" -> "HTTP::Status::status_message";
+"HTTP::Body::MultiPart::BEGIN@10" -> "IO::File::CORE:match";
+"Stream::Buffered::BEGIN@5" -> "FileHandle::import";
+"Nephia::BEGIN@17" -> "Router::Simple::new";
+"File::Temp::BEGIN@147" -> "IO::Seekable::BEGIN@99";
+"Encode::predefine_encodings" -> "Encode::Encoding::BEGIN@5";
+"AutoLoader::find_filename" -> "AutoLoader::CORE:fteread";
+"Plack::Middleware::AccessLog::BEGIN@15" -> "POSIX::SigRt::BEGIN@60";
+"Plack::Request::BEGIN@11" -> "HTTP::Body::OctetStream::BEGIN@7";
+"HTTP::Server::PSGI::BEGIN@19" -> "DynaLoader::BEGIN@22";
+"Plack::Middleware::Static::call" -> "Nephia::Core::__ANON__[Nephia/Core.pm:128]";
+"Plack::Middleware::StackTrace::BEGIN@5" -> "Devel::StackTrace::BEGIN@8";
+"Plack::Request::BEGIN@14" -> "Stream::Buffered::BEGIN@7";
+"Nephia::Core::BEGIN@6" -> "Plack::Request::BEGIN@13";
+"Try::Tiny::try" -> "HTTP::Parser::XS::BEGIN@3";
+"IO::Socket::INET::BEGIN@11" -> "IO::Socket::UNIX::BEGIN@12";
+"HTTP::Server::PSGI::write_all" -> "HTTP::Server::PSGI::write_timeout";
+"Text::MicroTemplate::File::build_file" -> "Text::MicroTemplate::File::CORE:readline";
+"Plack::Sandbox::app_2epsgi::BEGIN@4" -> "Config::Micro::BEGIN@3";
+"Plack::Middleware::StackTrace::BEGIN@6" -> "Devel::StackTrace::AsHTML::BEGIN@7";
+}
